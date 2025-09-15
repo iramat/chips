@@ -1,9 +1,9 @@
-url_data	is_reference_data	description
+url_data	is_reference_data	description	dataset_name	bibreference_num
 http://157.136.252.188:3000/ref_elements	Y	Atomic number
-http://157.136.252.188:3000/dataset_tyoungxx	N	Dataset
-http://157.136.252.188:3000/dataset_adisser17	N	Dataset
-http://157.136.252.188:3000/dataset_gzabinski23	N	Dataset
-http://157.136.252.188:3000/dataset_gpages22	N	Dataset
+http://157.136.252.188:3000/dataset_tyoungxx	N	Dataset	dataset_tyoungxx	c.bibreference >= 20 AND c.bibreference <= 71
+http://157.136.252.188:3000/dataset_adisser17	N	Dataset	dataset_adisser17	c.bibreference = 1
+http://157.136.252.188:3000/dataset_gzabinski23	N	Dataset	dataset_gzabinski23	c.bibreference = 19
+http://157.136.252.188:3000/dataset_gpages22	N	Dataset	dataset_gpages22	c.bibreference = 2
 http://157.136.252.188:3000/dataset_vserneels93	N	Dataset
 http://157.136.252.188:3000/dataset_sleroy12	N	Dataset
 http://157.136.252.188:3000/dataset_pdillmann17	N	Dataset
