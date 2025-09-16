@@ -4,20 +4,19 @@ http://157.136.252.188:3000/dataset_tyoungxx	N	Dataset	dataset_tyoungxx	c.bibref
 http://157.136.252.188:3000/dataset_adisser17	N	Dataset	dataset_adisser17	c.bibreference = 1
 http://157.136.252.188:3000/dataset_gzabinski23	N	Dataset	dataset_gzabinski23	c.bibreference = 19
 http://157.136.252.188:3000/dataset_gpages22	N	Dataset	dataset_gpages22	c.bibreference = 2
-http://157.136.252.188:3000/dataset_vserneels93	N	Dataset		
-http://157.136.252.188:3000/dataset_sleroy12	N	Dataset		
-http://157.136.252.188:3000/dataset_pdillmann17	N	Dataset		
-http://157.136.252.188:3000/dataset_amdesaulty8a	N	Dataset		
-http://157.136.252.188:3000/dataset_amdesaulty8b	N	Dataset		
-http://157.136.252.188:3000/dataset_jmilot16	N	Dataset		
-http://157.136.252.188:3000/dataset_mpcoustures06	N	Dataset		
-http://157.136.252.188:3000/dataset_gstdidier17	N	Dataset		
-http://157.136.252.188:3000/dataset_mbrauns13	N	Dataset		
-http://157.136.252.188:3000/dataset_lheritier20	N	Dataset		
-http://157.136.252.188:3000/dataset_mleroy97	N	Dataset		
-http://157.136.252.188:3000/dataset_mleroy24	N	Dataset		
-http://157.136.252.188:3000/dataset_leschenlohr01	N	Dataset		
-http://157.136.252.188:3000/dataset_tivancan21	N	Dataset		
-http://157.136.252.188:3000/dataset_pmameli14	N	Dataset		
-http://157.136.252.188:3000/dataset_kmittelstaedt22	N	Dataset		
-http://157.136.252.188:3000/dataset_mbenvenuti13	N	Dataset		
+http://157.136.252.188:3000/dataset_vserneels93	N	Dataset	dataset_vserneels93	c.bibreference = 17
+http://157.136.252.188:3000/dataset_sleroy12	N	Dataset	dataset_sleroy12	c.bibreference = 5
+http://157.136.252.188:3000/dataset_pdillmann17	N	Dataset	dataset_pdillmann17	c.bibreference = 6
+http://157.136.252.188:3000/dataset_amdesaulty8a	N	Dataset	dataset_amdesaulty8a	c.bibreference = 7
+http://157.136.252.188:3000/dataset_amdesaulty8b	N	Dataset	dataset_amdesaulty8b	c.bibreference = 8
+http://157.136.252.188:3000/dataset_jmilot16	N	Dataset	dataset_jmilot16	c.bibreference = 9
+http://157.136.252.188:3000/dataset_mpcoustures06	N	Dataset	dataset_mpcoustures06	c.bibreference = 10
+http://157.136.252.188:3000/dataset_gstdidier17	N	Dataset	dataset_gstdidier17	c.bibreference = 11
+http://157.136.252.188:3000/dataset_mbrauns13	N	Dataset	dataset_mbrauns13	c.bibreference = 13
+http://157.136.252.188:3000/dataset_lheritier20	N	Dataset	dataset_lheritier20	c.bibreference = 14
+http://157.136.252.188:3000/dataset_mleroy97	N	Dataset	dataset_mleroy97	c.bibreference = 15
+http://157.136.252.188:3000/dataset_mleroy24	N	Dataset	dataset_mleroy24	c.bibreference = 16
+http://157.136.252.188:3000/dataset_leschenlohr01	N	Dataset	dataset_leschenlohr01	c.bibreference = 18
+http://157.136.252.188:3000/dataset_tivancan21	N	Dataset	dataset_tivancan21	c.bibreference = 77
+http://157.136.252.188:3000/dataset_pmameli14	N	Dataset	dataset_pmameli1	c.bibreference = 78
+http://157.136.252.188:3000/dataset_kmittelstaedt22	N	Dataset	dataset_kmittelstaedt22	c.bibreference = 79
