@@ -1,12 +1,13 @@
 ---
-title: "Welcome to CHIPS"
+title: "Privacy Policy"
 description: ""
-lead: "CHImie en PaléoSidérurgie"
-date: 2023-09-07T16:33:54+02:00
-lastmod: 2023-09-07T16:33:54+02:00
+summary: ""
+date: 2023-09-07T17:19:07+02:00
+lastmod: 2023-09-07T17:19:07+02:00
 draft: false
+type: "legal"
 seo:
-  title: "Welcome to CHIPS" # custom title (optional)
+  title: "" # custom title (optional)
   description: "" # custom description (recommended)
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true

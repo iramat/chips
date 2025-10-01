@@ -1,5 +1,7 @@
-title = "My Docs"
+title = "CHIPS"
 baseurl = "https://iramat.github.io/chips/"
+# baseurl = "http://localhost:1313/chips/"
+
 disableAliases = true
 disableHugoGeneratorInject = true
 # disableKinds = ["taxonomy", "term"]
@@ -12,10 +14,15 @@ summarylength = 20 # 70 (default)
 
 # Multilingual
 defaultContentLanguage = "en"
-disableLanguages = ["de", "nl"]
-defaultContentLanguageInSubdir = false
+disableLanguages = ["de", "nl"] # "fr"
+defaultContentLanguageInSubdir = true
+# disableDefaultLanguageRedirect = true
 
 copyRight = "Copyright (c) 2020-2024 Thulite"
+
+[params]
+favicon = "logo.png"
+
 
 [build.buildStats]
   enable = true

@@ -14,8 +14,12 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.
+See the documentation hosted on the [iramat-dev GitHub repo](https://github.com/iramat/iramat-dev/tree/main/dbs/chips)
+
+## Contribute to the DB
+
+Check the contribution rules [in progress]
 
 ## Further reading
 
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+- Read the [CHPIS database presentation preprint](https://zenodo.org/records/15144194) hosted on Zenodo

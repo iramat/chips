@@ -2,11 +2,12 @@
 <section class="section container-fluid mt-n3 pb-3">
   <div class="row justify-content-center">
     <div class="col-lg-12 text-center">
-      <h1>{{ .Title }}</h1>
+      {{/*  <h1>{{ .Title }}</h1>  */}}
+      <h1>{{ i18n "title_site" }}</h1>
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3" href="/docs/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}guides/example-guide/" role="button">{{ i18n "get_started" }}</a>
+      <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3" href="https://fnp.huma-num.fr/adws/app/efbc5983-40d6-11ec-810c-a7f8dd92e681/index.html" role="button">{{ i18n "get_started" }}</a>
       {{ .Content }}
     </div>
   </div>
@@ -24,20 +25,36 @@
     <div class="container">
       <div class="row justify-content-center text-center">
         <div class="col-lg-5">
-          <h2 class="h4">Update content</h2>
-          <p>Edit <code>content/_index.md</code> to see this page change.</p>
+          <h2 class="h4">Contribute to the database</h2>
+          <p>Add your chemistry results in CHIPS to benefit from best practices and standardised workflows, and see them <a href="https://iramat-apps.cnrs.fr/dash/">findable, accessible, interoperable and fully reusable (FAIR)</a></p>
         </div>
         <div class="col-lg-5">
-          <h2 class="h4">Add new content</h2>
-          <p>Add Markdown files to <code>content</code> to create new pages.</p>
-        </div>
-        <div class="col-lg-5">
-          <h2 class="h4">Configure your site</h2>
-          <p>Edit your config in <code>config/_default/params.toml</code>.</p>
+          <h2 class="h4">Dump your dataset from CHIPS to Zenodo</h2>
+          <p>By adding your dataset to CHIPS, you'll benefit from a standardized framework for both data and metadata, ensuring your <a href="https://zenodo.org/communities/iramat/">Zenodo dataset's DOI</a> will be properly cited.</p>
         </div>
         <div class="col-lg-5">
           <h2 class="h4">Read the docs</h2>
-          <p>Learn more in the <a href="https://getdoks.org/">Docs</a>.</p>
+          <p>Learn more in the <a href="https://github.com/iramat/chips">Docs</a>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+  {{ if eq $.Site.Language.LanguageName "Français" }}
+  <section class="section section-md section-features">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-5">
+          <h2 class="h4">Contribuez à la base de données  </h2>
+          <p>Ajoutez vos résultats en chimie dans CHIPS pour bénéficier des meilleures pratiques et de flux de travail standardisés, et les rendre <a href="https://iramat-apps.cnrs.fr/dash/">faciles à trouver, accessibles, interopérables et pleinement réutilisables (FAIR)</a>.</p>
+        </div>
+        <div class="col-lg-5">
+          <h2 class="h4">Exportez votre jeu de données de CHIPS vers Zenodo</h2>
+          <p>En ajoutant votre jeu de données à CHIPS, vous bénéficierez d’un cadre standardisé pour les données et les métadonnées, garantissant que le <a href="https://zenodo.org/communities/iramat/">DOI de votre jeu de données Zenodo</a> soit correctement cité.</p>
+        </div>
+        <div class="col-lg-5">
+          <h2 class="h4">Lisez la documentation</h2>
+          <p>En savoir plus dans la <a href="https://github.com/iramat/chips">documentation</a>.</p>
         </div>
       </div>
     </div>

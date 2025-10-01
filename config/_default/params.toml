@@ -1,5 +1,5 @@
 # Hugo
-title = "My Docs"
+title = "CHIPS XXX"
 description = "Congrats on setting up a new Doks project!"
 images = ["cover.png"]
 
@@ -21,7 +21,7 @@ mainSections = ["docs"]
 
   ## Button
   navBarButton = false # false (default) or true
-  navBarButtonUrl = "/docs/prologue/introduction/"
+  navBarButtonUrl = "docs/prologue/introduction/"
   navBarButtonText = "Get started"
 
   # FlexSearch
@@ -51,7 +51,7 @@ mainSections = ["docs"]
   scrollSpy = true # true (default) or false
 
   # Multilingual
-  multilingualMode = false # false (default) or true
+  multilingualMode = true # false (default) or true
   showMissingLanguages = true # whether or not to show untranslated languages in the language menu; true (default) or false
 
   # Versioning
