@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .env
 .netlify
 .hugo_build.lock
@@ -7,3 +8,21 @@ resources/
 (archives)/
 static/
 doc/
+=======
+# Hugo build lock
+.hugo_build.lock
+
+# Hugo build outputs
+/public/
+/resources/
+
+# Hugo config & assets only for site generation
+/assets/
+/config/
+/content/
+/i18n/
+/layouts/
+/static/
+
+/node_modules/
+>>>>>>> e20bf4de32f40ca6183408016dfd9e4aff24c86f
