@@ -1,0 +1,10 @@
+# Ignore everything by default
+*
+
+# But NOT these two:
+!.gitignore
+!README.md
+!urls/
+
+# If you want to allow folder content inside urls/, keep this:
+!urls/**
