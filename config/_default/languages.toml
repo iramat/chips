@@ -3,7 +3,7 @@ languageName = "English"
 contentDir = "content/en"
 languageCode = "en"
 weight = 1
-url = "en"
+# url = "en"
 # title = "CHIPS"
 
 [en.params]
@@ -23,7 +23,7 @@ languageName = "Français"
 contentDir = "content/fr"
 languageCode = "fr"
 weight = 2
-url = "fr"
+# url = "fr"
 
 [fr.params]
 languageISO = "FR"
