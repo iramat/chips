@@ -1,6 +1,7 @@
 title = "CHIPS"
 baseurl = "https://iramat.github.io/chips/"
 # baseurl = "http://localhost:1313/chips/"
+# theme = 'doks'
 
 disableAliases = true
 disableHugoGeneratorInject = true
