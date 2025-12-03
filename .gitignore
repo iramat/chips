@@ -5,6 +5,7 @@
 !.gitignore
 !README.md
 !urls/
+!img/
 
 # If you want to allow folder content inside urls/, keep this:
 !urls/**
