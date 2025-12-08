@@ -9,3 +9,4 @@ The GitHub repo dedicated to the CHIPS database. Links (work in progress):
 ## documentation
 
 - 📰 2025, [The CHIPS Database: A Repository for Reference Data on Chemical Analysis in Archaeometallurgy of Iron](https://zenodo.org/records/17244636)
+- 🖥️ 2025, [WIAI, présentation de CHIPS](https://github.com/iramat/.github/blob/main/profile/README.md#pass%C3%A9es)
