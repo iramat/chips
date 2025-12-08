@@ -1,4 +1,4 @@
-# chips
+# chips  <img src="https://raw.githubusercontent.com/iramat/iramat-dev/main/img/logo-chips-round.png" width='100px' align="right"/>
 > BDD CHImie en PaléoSidérurgie, DB CHIPS
 
 The GitHub repo dedicated to the CHIPS database. Links (work in progress):
