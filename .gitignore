@@ -1,12 +1,9 @@
-# Ignore everything by default
+# Ignore everything
 *
-
-# But NOT these two:
+# But NOT these ones:
 !.gitignore
 !README.md
 !urls/
 !img/
-
-# If you want to allow folder content inside urls/, keep this:
 !urls/**
 !img/**
