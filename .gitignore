@@ -1,9 +1,0 @@
-# Ignore everything
-*
-# But NOT these ones:
-!.gitignore
-!README.md
-!urls/
-!img/
-!urls/**
-!img/**
