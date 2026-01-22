@@ -1,10 +1,12 @@
 ---
 title: "Database description"
-description: ""
+description: "doks"
 summary: ""
 date: 2023-04-03T14:50:38+01:00
 draft: false
 weight: 5
+# type: docs
+# layout: "single-nosidebar"
 seo:
   title: "" # custom title (optional)
   description: "" # custom description (recommended)
@@ -29,7 +31,8 @@ Columns are described in the GitHub repository:
 <!-- {{< tsvtable "https://raw.githubusercontent.com/iramat/chips/main/metadata/pg_tables_columns_comments.tsv" >}} -->
 <!-- {{< tsvtable "https://cdn.jsdelivr.net/gh/iramat/chips@main/metadata/pg_tables_columns_comments.tsv" >}}
  -->
-{{< tsvtable "/chips/data/pg_tables_columns_comments.tsv" >}}
+<!-- {{< tsvtable "/chips/data/pg_tables_columns_comments.tsv" >}} -->
+{{< tsvtable "data/pg_tables_columns_comments.tsv" >}}
 
 
 

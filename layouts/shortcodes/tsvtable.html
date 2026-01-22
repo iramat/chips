@@ -11,12 +11,13 @@
 
 <script>
 (async function () {
-  const url = {{ .Get 0 | jsonify }};
+  const url = "{{ .Get 0 | relURL }}";
   const tableId = "tsvtable-{{ .Ordinal }}";
   const resp = await fetch(url);
+  console.error("TSV fetch failed:", resp.status, resp.statusText, url);
   if (!resp.ok) {
     document.getElementById(tableId).outerHTML =
-      `<p>HELLO BUT Could not load TSV (${resp.status}).</p>`;
+      `<p>HELLO BUT Could not load TSSSV (${resp.status}).</p>`;
     return;
   }
   const text = await resp.text();
