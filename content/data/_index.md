@@ -1,14 +1,10 @@
 ---
-title: "Reference"
+title: "Data"
 description: ""
 summary: ""
-date: 2023-09-07T16:12:37+02:00
-lastmod: 2023-09-07T16:12:37+02:00
-draft: false
-weight: 900
-toc: true
-sidebar:
-  collapsed: true
+date: 2026-01-22T18:40:36+01:00
+lastmod: 2026-01-22T18:40:36+01:00
+draft: true
 seo:
   title: "" # custom title (optional)
   description: "" # custom description (recommended)

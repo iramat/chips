@@ -1,24 +1,42 @@
 ---
-title: "Database Handbook"
-type: docs
-# layout: docs
-weight: 1
-url: "/en/docs/"
+title: "Database description"
+description: ""
+summary: ""
+date: 2023-04-03T14:50:38+01:00
+draft: false
+weight: 5
+seo:
+  title: "" # custom title (optional)
+  description: "" # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
 ---
 
-## Database documentation
 
+## Architecture
 
-
-#### Entity-Relations Diagram
+Postgres..
 
 <p align="center">
     {{< img src="images/db_erd.png" alt="ERD diagram" width="700" >}}<br>
-  Simplified ERD of the CHIPS DB
+  Simplified Entity-Relations Diagram (ERD) of the CHIPS DB
 </p>
 
+### Tables and values
 
-#### Recording Measurement Errors
+Columns are described in the GitHub repository:
+
+<!-- {{< tsvtable "https://raw.githubusercontent.com/iramat/chips/main/metadata/pg_tables_columns_comments.tsv" >}} -->
+<!-- {{< tsvtable "https://cdn.jsdelivr.net/gh/iramat/chips@main/metadata/pg_tables_columns_comments.tsv" >}}
+ -->
+{{< tsvtable "/chips/data/pg_tables_columns_comments.tsv" >}}
+
+
+
+## Recording
+
+### Measurement Errors
+> Recording Measurement Errors
 
 <p class="justify">
 
@@ -34,3 +52,8 @@ The following protocol has been established for recording measurement errors:
 
 
 </p>
+
+See the documentation hosted on the [iramat-dev GitHub repo](https://github.com/iramat/iramat-dev/tree/main/dbs/chips)
+
+
+

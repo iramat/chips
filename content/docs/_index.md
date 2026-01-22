@@ -1,14 +1,18 @@
 ---
-title: "Privacy Policy"
+title: "My Database Docummentation"
 description: ""
 summary: ""
-date: 2023-09-07T17:19:07+02:00
-lastmod: 2023-09-07T17:19:07+02:00
+layout: "docs"
+date: 2023-09-07T16:06:50+02:00
+lastmod: 2023-09-07T16:06:50+02:00
 draft: false
-type: "legal"
+weight: 1
+toc: true
 seo:
   title: "" # custom title (optional)
   description: "" # custom description (recommended)
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
+
+This section describes the **objective** of CHIPS and its IT settings

@@ -1,0 +1,60 @@
+<link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.datatables.net/2.0.8/js/dataTables.min.js"></script>
+
+<div style="overflow-x:auto">
+  <table id="tsvtable-{{ .Ordinal }}" class="display" style="width:100%">
+    <thead></thead>
+    <tbody></tbody>
+  </table>
+</div>
+
+<script>
+(async function () {
+  const url = {{ .Get 0 | jsonify }};
+  const tableId = "tsvtable-{{ .Ordinal }}";
+  const resp = await fetch(url);
+  if (!resp.ok) {
+    document.getElementById(tableId).outerHTML =
+      `<p>HELLO BUT Could not load TSV (${resp.status}).</p>`;
+    return;
+  }
+  const text = await resp.text();
+
+  // Parse TSV (simple parser: splits by \n and \t)
+  const lines = text.trim().split(/\r?\n/);
+  if (lines.length === 0) return;
+
+  const headers = lines[0].split("\t");
+  const rows = lines.slice(1).map(l => l.split("\t"));
+
+  const table = document.getElementById(tableId);
+
+  // Build thead
+  const thead = table.querySelector("thead");
+  thead.innerHTML = "<tr>" + headers.map(h => `<th>${escapeHtml(h)}</th>`).join("") + "</tr>";
+
+  // Build tbody
+  const tbody = table.querySelector("tbody");
+  tbody.innerHTML = rows.map(cols =>
+    "<tr>" + cols.map(c => `<td>${escapeHtml(c ?? "")}</td>`).join("") + "</tr>"
+  ).join("");
+
+  // Activate DataTables
+  new DataTable("#" + tableId, {
+    paging: true,
+    searching: true,
+    fixedHeader: true
+  });
+
+  function escapeHtml(s) {
+    return String(s)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+  }
+})();
+
+</script>

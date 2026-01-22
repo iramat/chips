@@ -14,7 +14,19 @@
 name = "Database documentation"
 pageRef = "docs"
 url = "en/docs" # TODO: less 'hardcoded'
-weight = 10
+weight = 1
+
+[[main]]
+name = "Data"
+pageRef = "data"
+url = "en/data" # TODO: less 'hardcoded'
+weight = 2
+
+[[main]]
+name = "References"
+pageRef = "refs"
+url = "en/refs" # TODO: less 'hardcoded'
+weight = 3
 
 # [[main]]
 # name = "Blog"

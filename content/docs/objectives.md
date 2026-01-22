@@ -1,11 +1,11 @@
 ---
-title: "Database Handbook"
+title: "State of interest: why CHIPS DB?"
 description: "Guides lead a user through a specific task they want to accomplish, often with a sequence of steps."
 summary: ""
 date: 2023-09-07T16:04:48+02:00
 lastmod: 2023-09-07T16:04:48+02:00
 draft: false
-weight: 810
+weight: 10
 toc: true
 seo:
   title: "" # custom title (optional)
@@ -14,12 +14,6 @@ seo:
   noindex: false # false (default) or true
 ---
 
-See the documentation hosted on the [iramat-dev GitHub repo](https://github.com/iramat/iramat-dev/tree/main/dbs/chips)
+Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.
 
-## Contribute to the DB
 
-Check the contribution rules [in progress]
-
-## Further reading
-
-- Read the [CHPIS database presentation preprint](https://zenodo.org/records/15144194) hosted on Zenodo
