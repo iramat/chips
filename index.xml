@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to CHIPS on CHIPS</title>
+    <link>https://iramat.github.io/chips/</link>
+    <description>Recent content in Welcome to CHIPS on CHIPS</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020-2024 Thulite</copyright>
+    <lastBuildDate>Thu, 07 Sep 2023 16:13:18 +0200</lastBuildDate>
+    <atom:link href="https://iramat.github.io/chips/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open Science and FAIR principles</title>
+      <link>https://iramat.github.io/chips/docs/open-science-and-fair-principles/</link>
+      <pubDate>Mon, 03 Apr 2023 14:50:38 +0100</pubDate>
+      <guid>https://iramat.github.io/chips/docs/open-science-and-fair-principles/</guid>
+      <description>&lt;h2 id=&#34;contribute-to-the-db&#34;&gt;Contribute to the DB&lt;/h2&gt;&#xA;&lt;p&gt;Check the contribution rules [in progress]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Database description</title>
+      <link>https://iramat.github.io/chips/docs/database-description/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://iramat.github.io/chips/docs/database-description/</guid>
+      <description>&lt;h2 id=&#34;architecture&#34;&gt;Architecture&lt;/h2&gt;&#xA;&lt;p&gt;Postgres..&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;https://iramat.github.io/chips/images/db_erd.png&#34;&#xD;&#xA;         alt=&#34;ERD diagram&#34;&#xD;&#xA;         width=&#34;700&#34;&gt;&#xD;&#xA;&lt;br&gt;&#xD;&#xA;  Simplified Entity-Relations Diagram (ERD) of the CHIPS DB&#xD;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;h3 id=&#34;tables-and-values&#34;&gt;Tables and values&lt;/h3&gt;&#xA;&lt;p&gt;Columns are described in the GitHub repository:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>State of interest: why CHIPS DB?</title>
+      <link>https://iramat.github.io/chips/docs/state-of-interest-why-chips-db/</link>
+      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
+      <guid>https://iramat.github.io/chips/docs/state-of-interest-why-chips-db/</guid>
+      <description>&lt;p&gt;Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>References</title>
+      <link>https://iramat.github.io/chips/refs/example/</link>
+      <pubDate>Thu, 07 Sep 2023 16:13:18 +0200</pubDate>
+      <guid>https://iramat.github.io/chips/refs/example/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://zenodo.org/records/15144194&#34;&gt;CHIPS database presentation preprint&lt;/a&gt;, 2026, hosted on Zenodo&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Database dashboard</title>
+      <link>https://iramat.github.io/chips/data/dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://iramat.github.io/chips/data/dashboard/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://iramat-apps.cnrs.fr/dash/&#34;&gt;CHIPS dashboard&lt;/a&gt; provides an overview of the database content and statistics.&lt;/p&gt;&#xA;&lt;iframe&#xD;&#xA;  src=&#34;https://iramat-apps.cnrs.fr/dash/&#34;&#xD;&#xA;  width=&#34;100%&#34;&#xD;&#xA;  height=&#34;800&#34;&#xD;&#xA;  style=&#34;border:none;&#34;&gt;&#xD;&#xA;&lt;/iframe&gt;</description>
+    </item>
+    <item>
+      <title>Datasets</title>
+      <link>https://iramat.github.io/chips/data/datasets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://iramat.github.io/chips/data/datasets/</guid>
+      <description>&lt;p&gt;Datasets opened to the public are listed here:&lt;/p&gt;&#xA;&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css&#34;&gt;&#xD;&#xA;&lt;script src=&#34;https://code.jquery.com/jquery-3.7.1.min.js&#34;&gt;&lt;/script&gt;&#xD;&#xA;&lt;script src=&#34;https://cdn.datatables.net/2.0.8/js/dataTables.min.js&#34;&gt;&lt;/script&gt;&#xD;&#xA;&#xD;&#xA;&lt;div style=&#34;overflow-x:auto&#34;&gt;&#xD;&#xA;  &lt;table id=&#34;tsvtable-0&#34; class=&#34;display&#34; style=&#34;width:100%&#34;&gt;&#xD;&#xA;    &lt;thead&gt;&lt;/thead&gt;&#xD;&#xA;    &lt;tbody&gt;&lt;/tbody&gt;&#xD;&#xA;  &lt;/table&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;script&gt;&#xD;&#xA;(async function () {&#xD;&#xA;  const url = &#34;\/chips\/data\/urls_data.tsv&#34;;&#xD;&#xA;  const tableId = &#34;tsvtable-0&#34;;&#xD;&#xA;  const resp = await fetch(url);&#xD;&#xA;  console.error(&#34;TSV fetch failed:&#34;, resp.status, resp.statusText, url);&#xD;&#xA;  if (!resp.ok) {&#xD;&#xA;    document.getElementById(tableId).outerHTML =&#xD;&#xA;      `&lt;p&gt;HELLO BUT Could not load TSSSV (${resp.status}).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
