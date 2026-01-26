@@ -2,7 +2,7 @@
 title: "Database description"
 description: "doks"
 summary: ""
-date: 2023-04-03T14:50:38+01:00
+# date: 2023-04-03T14:50:38+01:00
 draft: false
 weight: 5
 # type: docs
