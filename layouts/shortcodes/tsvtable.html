@@ -13,39 +13,50 @@
 (async function () {
   const url = "{{ .Get 0 | relURL }}";
   const tableId = "tsvtable-{{ .Ordinal }}";
+
   const resp = await fetch(url);
-  console.error("TSV fetch failed:", resp.status, resp.statusText, url);
+
+  // Only log errors when it actually fails
   if (!resp.ok) {
+    console.error("TSV fetch failed:", resp.status, resp.statusText, url);
     document.getElementById(tableId).outerHTML =
-      `<p>HELLO BUT Could not load TSSSV (${resp.status}).</p>`;
+      `<p>Could not load TSV (${resp.status}).</p>`;
     return;
   }
+
   const text = await resp.text();
 
-  // Parse TSV (simple parser: splits by \n and \t)
   const lines = text.trim().split(/\r?\n/);
   if (lines.length === 0) return;
 
   const headers = lines[0].split("\t");
   const rows = lines.slice(1).map(l => l.split("\t"));
 
+  // ✅ Normalize every row to the same column count as headers
+  const normalizedRows = rows.map(cols => {
+    const out = Array(headers.length).fill("");
+    for (let i = 0; i < headers.length; i++) out[i] = cols[i] ?? "";
+    return out;
+  });
+
   const table = document.getElementById(tableId);
 
-  // Build thead
   const thead = table.querySelector("thead");
   thead.innerHTML = "<tr>" + headers.map(h => `<th>${escapeHtml(h)}</th>`).join("") + "</tr>";
 
-  // Build tbody
   const tbody = table.querySelector("tbody");
-  tbody.innerHTML = rows.map(cols =>
-    "<tr>" + cols.map(c => `<td>${escapeHtml(c ?? "")}</td>`).join("") + "</tr>"
+  tbody.innerHTML = normalizedRows.map(cols =>
+    "<tr>" + cols.map(c => `<td>${escapeHtml(c)}</td>`).join("") + "</tr>"
   ).join("");
 
-  // Activate DataTables
+  // Optional: belt-and-suspenders defaultContent for any missing data
+  const columns = headers.map(() => ({ defaultContent: "" }));
+
   new DataTable("#" + tableId, {
     paging: true,
     searching: true,
-    fixedHeader: true
+    fixedHeader: true,
+    columns
   });
 
   function escapeHtml(s) {
@@ -57,5 +68,5 @@
       .replaceAll("'", "&#039;");
   }
 })();
-
 </script>
+
