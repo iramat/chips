@@ -20,8 +20,11 @@
 (async function () {
  const url = "\/chips\/data\/urls_data.tsv";
  const tableId = "tsvtable-0";
+
  const resp = await fetch(url);
- console.error("TSV fetch failed:", resp.status, resp.statusText, url);
+
+ 
  if (!resp.ok) {
+ console.error("TSV fetch failed:", resp.status, resp.statusText, url);
  document.getElementById(tableId).outerHTML =
- `&lt;p>HELLO BUT Could not load TSSSV (${resp.status}).&lt;/p></description></item></channel></rss>
+ `&lt;p>Could not load TSV (${resp.status}).&lt;/p></description></item></channel></rss>
