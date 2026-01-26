@@ -20,7 +20,7 @@ git status
 Write-Host "▶ Committing and pushing to gh-pages..."
 git add .
 git commit -m $CommitMessage
-git push -u origin gh-pages
+git push --force origin gh-pages
 
 Pop-Location
 Write-Host "✅ Deployment to gh-pages completed successfully."
