@@ -1,34 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>My Database Docummentation on CHIPS</title>
-    <link>https://iramat.github.io/chips/docs/</link>
-    <description>Recent content in My Database Docummentation on CHIPS</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <copyright>Copyright (c) 2020-2024 Thulite</copyright>
-    <lastBuildDate>Thu, 07 Sep 2023 16:04:48 +0200</lastBuildDate>
-    <atom:link href="https://iramat.github.io/chips/docs/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Open Science and FAIR principles</title>
-      <link>https://iramat.github.io/chips/docs/open-science-and-fair-principles/</link>
-      <pubDate>Mon, 03 Apr 2023 14:50:38 +0100</pubDate>
-      <guid>https://iramat.github.io/chips/docs/open-science-and-fair-principles/</guid>
-      <description>&lt;h2 id=&#34;contribute-to-the-db&#34;&gt;Contribute to the DB&lt;/h2&gt;&#xA;&lt;p&gt;Check the contribution rules [in progress]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Database description</title>
-      <link>https://iramat.github.io/chips/docs/database-description/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://iramat.github.io/chips/docs/database-description/</guid>
-      <description>&lt;h2 id=&#34;architecture&#34;&gt;Architecture&lt;/h2&gt;&#xA;&lt;p&gt;Postgres..&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;https://iramat.github.io/chips/images/db_erd.png&#34;&#xD;&#xA;         alt=&#34;ERD diagram&#34;&#xD;&#xA;         width=&#34;700&#34;&gt;&#xD;&#xA;&lt;br&gt;&#xD;&#xA;  Simplified Entity-Relations Diagram (ERD) of the CHIPS DB&#xD;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;h3 id=&#34;tables-and-values&#34;&gt;Tables and values&lt;/h3&gt;&#xA;&lt;p&gt;Columns are described in the GitHub repository:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>State of interest: why CHIPS DB?</title>
-      <link>https://iramat.github.io/chips/docs/state-of-interest-why-chips-db/</link>
-      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>https://iramat.github.io/chips/docs/state-of-interest-why-chips-db/</guid>
-      <description>&lt;p&gt;Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Database Docummentation on CHIPS</title><link>https://iramat.github.io/chips/docs/</link><description>Recent content in My Database Docummentation on CHIPS</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2024 Thulite</copyright><lastBuildDate>Thu, 07 Sep 2023 16:04:48 +0200</lastBuildDate><atom:link href="https://iramat.github.io/chips/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Open Science and FAIR principles</title><link>https://iramat.github.io/chips/docs/open-science-and-fair-principles/</link><pubDate>Mon, 03 Apr 2023 14:50:38 +0100</pubDate><guid>https://iramat.github.io/chips/docs/open-science-and-fair-principles/</guid><description>&lt;h2 id="contribute-to-the-db">Contribute to the DB&lt;/h2>
+&lt;p>Check the contribution rules [in progress]&lt;/p></description></item><item><title>Database description</title><link>https://iramat.github.io/chips/docs/database-description/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://iramat.github.io/chips/docs/database-description/</guid><description>&lt;h2 id="architecture">Architecture&lt;/h2>
+&lt;p>Postgres..&lt;/p>
+&lt;p align="center">
+ &lt;img src="https://iramat.github.io/chips/images/db_erd.png"
+ alt="ERD diagram"
+ width="700">
+&lt;br>
+ Simplified Entity-Relations Diagram (ERD) of the CHIPS DB
+&lt;/p>
+&lt;h3 id="tables-and-values">Tables and values&lt;/h3>
+&lt;p>Columns are described in the GitHub repository:&lt;/p></description></item><item><title>State of interest: why CHIPS DB?</title><link>https://iramat.github.io/chips/docs/state-of-interest-why-chips-db/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>https://iramat.github.io/chips/docs/state-of-interest-why-chips-db/</guid><description>&lt;p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.&lt;/p></description></item></channel></rss>

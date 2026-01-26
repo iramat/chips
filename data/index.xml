@@ -1,27 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Data on CHIPS</title>
-    <link>https://iramat.github.io/chips/data/</link>
-    <description>Recent content in Data on CHIPS</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <copyright>Copyright (c) 2020-2024 Thulite</copyright>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://iramat.github.io/chips/data/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Database dashboard</title>
-      <link>https://iramat.github.io/chips/data/dashboard/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://iramat.github.io/chips/data/dashboard/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://iramat-apps.cnrs.fr/dash/&#34;&gt;CHIPS dashboard&lt;/a&gt; provides an overview of the database content and statistics.&lt;/p&gt;&#xA;&lt;iframe&#xD;&#xA;  src=&#34;https://iramat-apps.cnrs.fr/dash/&#34;&#xD;&#xA;  width=&#34;100%&#34;&#xD;&#xA;  height=&#34;800&#34;&#xD;&#xA;  style=&#34;border:none;&#34;&gt;&#xD;&#xA;&lt;/iframe&gt;</description>
-    </item>
-    <item>
-      <title>Datasets</title>
-      <link>https://iramat.github.io/chips/data/datasets/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://iramat.github.io/chips/data/datasets/</guid>
-      <description>&lt;p&gt;Datasets opened to the public are listed here:&lt;/p&gt;&#xA;&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css&#34;&gt;&#xD;&#xA;&lt;script src=&#34;https://code.jquery.com/jquery-3.7.1.min.js&#34;&gt;&lt;/script&gt;&#xD;&#xA;&lt;script src=&#34;https://cdn.datatables.net/2.0.8/js/dataTables.min.js&#34;&gt;&lt;/script&gt;&#xD;&#xA;&#xD;&#xA;&lt;div style=&#34;overflow-x:auto&#34;&gt;&#xD;&#xA;  &lt;table id=&#34;tsvtable-0&#34; class=&#34;display&#34; style=&#34;width:100%&#34;&gt;&#xD;&#xA;    &lt;thead&gt;&lt;/thead&gt;&#xD;&#xA;    &lt;tbody&gt;&lt;/tbody&gt;&#xD;&#xA;  &lt;/table&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;script&gt;&#xD;&#xA;(async function () {&#xD;&#xA;  const url = &#34;\/chips\/data\/urls_data.tsv&#34;;&#xD;&#xA;  const tableId = &#34;tsvtable-0&#34;;&#xD;&#xA;  const resp = await fetch(url);&#xD;&#xA;  console.error(&#34;TSV fetch failed:&#34;, resp.status, resp.statusText, url);&#xD;&#xA;  if (!resp.ok) {&#xD;&#xA;    document.getElementById(tableId).outerHTML =&#xD;&#xA;      `&lt;p&gt;HELLO BUT Could not load TSSSV (${resp.status}).&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data on CHIPS</title><link>https://iramat.github.io/chips/data/</link><description>Recent content in Data on CHIPS</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2024 Thulite</copyright><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="https://iramat.github.io/chips/data/index.xml" rel="self" type="application/rss+xml"/><item><title>Database dashboard</title><link>https://iramat.github.io/chips/data/dashboard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://iramat.github.io/chips/data/dashboard/</guid><description>&lt;p>&lt;a href="https://iramat-apps.cnrs.fr/dash/">CHIPS dashboard&lt;/a> provides an overview of the database content and statistics.&lt;/p>
+&lt;iframe
+ src="https://iramat-apps.cnrs.fr/dash/"
+ width="100%"
+ height="800"
+ style="border:none;">
+&lt;/iframe></description></item><item><title>Datasets</title><link>https://iramat.github.io/chips/data/datasets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://iramat.github.io/chips/data/datasets/</guid><description>&lt;p>Datasets opened to the public are listed here:&lt;/p>
+&lt;link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css">
+&lt;script src="https://code.jquery.com/jquery-3.7.1.min.js">&lt;/script>
+&lt;script src="https://cdn.datatables.net/2.0.8/js/dataTables.min.js">&lt;/script>
+
+&lt;div style="overflow-x:auto">
+ &lt;table id="tsvtable-0" class="display" style="width:100%">
+ &lt;thead>&lt;/thead>
+ &lt;tbody>&lt;/tbody>
+ &lt;/table>
+&lt;/div>
+
+&lt;script>
+(async function () {
+ const url = "\/chips\/data\/urls_data.tsv";
+ const tableId = "tsvtable-0";
+ const resp = await fetch(url);
+ console.error("TSV fetch failed:", resp.status, resp.statusText, url);
+ if (!resp.ok) {
+ document.getElementById(tableId).outerHTML =
+ `&lt;p>HELLO BUT Could not load TSSSV (${resp.status}).&lt;/p></description></item></channel></rss>

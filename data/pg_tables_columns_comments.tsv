@@ -1,0 +1,249 @@
+table_name	column_name	comment
+chips	id_chips	Numeric. Unique identifier of analyses in the 'analyses' table
+chips	id_ech	Numeric. Unique identifier of samples in the 'sample' table, used as foreign key in the 'analyses' table
+chips	id_machinem	Numeric. Unique identifier of analytical devices in the 'machines' table, used as foreign key in the 'analyses' table
+chips	id_machinet	Numeric. Unique identifier of analytical devices in the 'machines' table, used as foreign key in the 'analyses' table
+chips	o	Numeric. Mass fraction of Oxygen in the analysed material, expressed as %wt
+chips	na	Numeric. Mass fraction of Sodium in the analysed material, expressed as %wt
+chips	mg	Numeric. Mass fraction of Magnesium in the analysed material, expressed as %wt
+chips	al	Numeric. Mass fraction of Aluminium in the analysed material, expressed as %wt
+chips	si	Numeric. Mass fraction of Silicon in the analysed material, expressed as %wt
+chips	p	Numeric. Mass fraction of Phosphorus in the analysed material, expressed as %wt
+chips	s	Numeric. Mass fraction of Sulfur in the analysed material, expressed as %wt
+chips	cl	Numeric. Mass fraction of Chlorine in the analysed material, expressed as %wt
+chips	k	Numeric. Mass fraction of Potassium in the analysed material, expressed as %wt
+chips	ca	Numeric. Mass fraction of Calcium in the analysed material, expressed as %wt
+chips	mn	Numeric. Mass fraction of Manganese in the analysed material, expressed as %wt
+chips	fe	Numeric. Mass fraction of Iron in the analysed material, expressed as %wt
+chips	perte_feu	Numeric. Loss on ignition representing the mass fraction of volatile compounds in the analysed material
+chips	arsenic	Numeric. Mass fraction of Arsenic in the analysed material, expressed as �g.g-1 (or ppm)
+chips	ba	Numeric. Mass fraction of Baryum in the analysed material, expressed as �g.g-1 (or ppm)
+chips	be	Numeric. Mass fraction of Beryllium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	bi	Numeric. Mass fraction of Bismuth in the analysed material, expressed as �g.g-1 (or ppm)
+chips	cd	Numeric. Mass fraction of Cadmium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	ce	Numeric. Mass fraction of Cerium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	co	Numeric. Mass fraction of Cobalt in the analysed material, expressed as �g.g-1 (or ppm)
+chips	cr	Numeric. Mass fraction of Chromium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	cs	Numeric. Mass fraction of Cesium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	cu	Numeric. Mass fraction of Copper in the analysed material, expressed as �g.g-1 (or ppm)
+chips	dy	Numeric. Mass fraction of Dysprosium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	er	Numeric. Mass fraction of Erbium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	eu	Numeric. Mass fraction of Europium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	ga	Numeric. Mass fraction of Gallium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	gd	Numeric. Mass fraction of Gadolinium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	ge	Numeric. Mass fraction of Germanium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	hf	Numeric. Mass fraction of Hafnium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	ho	Numeric. Mass fraction of Holmium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	indium	Numeric. Mass fraction of Indium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	la	Numeric. Mass fraction of Lanthanum in the analysed material, expressed as �g.g-1 (or ppm)
+chips	lu	Numeric. Mass fraction of Lutetium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	mo	Numeric. Mass fraction of Molybdenum in the analysed material, expressed as �g.g-1 (or ppm)
+chips	nb	Numeric. Mass fraction of Niobium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	nd	Numeric. Mass fraction of Neodymium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	ni	Numeric. Mass fraction of Nickel in the analysed material, expressed as �g.g-1 (or ppm)
+chips	pb	Numeric. Mass fraction of Lead in the analysed material, expressed as �g.g-1 (or ppm)
+chips	pd	Numeric. Mass fraction of Palladium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	pr	Numeric. Mass fraction of Praseodymium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	rb	Numeric. Mass fraction of Rubidium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	sb	Numeric. Mass fraction of Antimony in the analysed material, expressed as �g.g-1 (or ppm)
+chips	sc	Numeric. Mass fraction of Scandium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	sm	Numeric. Mass fraction of Samarium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	sn	Numeric. Mass fraction of Tin in the analysed material, expressed as �g.g-1 (or ppm)
+chips	sr	Numeric. Mass fraction of Strontium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	ta	Numeric. Mass fraction of Tantalum in the analysed material, expressed as �g.g-1 (or ppm)
+chips	tb	Numeric. Mass fraction of Terbium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	th	Numeric. Mass fraction of Thorium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	ti	Numeric. Mass fraction of Titanium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	tm	Numeric. Mass fraction of Thulium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	u	Numeric. Mass fraction of Uranium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	v	Numeric. Mass fraction of Vanadium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	w	Numeric. Mass fraction of Tungten in the analysed material, expressed as �g.g-1 (or ppm)
+chips	y	Numeric. Mass fraction of Yttrium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	yb	Numeric. Mass fraction of Ytterbium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	zn	Numeric. Mass fraction of  in the analysed material, expressed as �g.g-1 (or ppm)
+chips	zr	Numeric. Mass fraction of  in the analysed material, expressed as �g.g-1 (or ppm)
+chips	os187_os188	Numeric. Isotopic ratio between the 187 and 188 isotopes of Osmium
+chips	open	Boolean. Boolean value indicating if the related analysis is open access or not
+chips	delta57fe	Numeric. Quotient of the isotopic ratio between the 57 and 54 isotopes of Iron in the sample by the isotopic ratio between the 57 and 54 isotopes of Iron in an international standard, expressed as �
+chips	delta56fe	Numeric. Quotient of the isotopic ratio between the 56 and 54 isotopes of Iron in the sample by the isotopic ratio between the 56 and 54 isotopes of Iron in an international standard, expressed as �
+chips	id_machinei	Numeric. Unique identifier of analytical devices in the 'machines' table, used as foreign key in the 'analyses' table
+chips	n_crpg	Numeric. Internal reference of the Centre de Recherches P�trographiques et g�ochimiques
+chips	bibreference	Numeric. Unique identifier of analytical devices in the 'literature' table, used as foreign key in the 'analyses' table
+chips	os187_os186	Numeric. Isotopic ratio between the 187 and 186 isotopes of Osmium
+chips	os_ppt	Numeric. Mass fraction of  in the analysed material, expressed as pg.g-1 (or ppt)
+chips	ag	Numeric. Mass fraction of  in the analysed material, expressed as �g.g-1 (or ppm)
+chips	sr87_sr86	Numeric. Isotopic ratio between the 87 and 86 isotopes of Strontium
+chips	li	Numeric. Mass fraction of  in the analysed material, expressed as �g.g-1 (or ppm)
+chips	tl	Numeric. Mass fraction of  in the analysed material, expressed as �g.g-1 (or ppm)
+chips	ru	Numeric. Mass fraction of  in the analysed material, expressed as �g.g-1 (or ppm)
+chips	re	Numeric. Mass fraction of  in the analysed material, expressed as �g.g-1 (or ppm)
+chips	se	Numeric. Mass fraction of  in the analysed material, expressed as �g.g-1 (or ppm)
+chips	te	Numeric. Mass fraction of  in the analysed material, expressed as �g.g-1 (or ppm)
+chips	carbon	Numeric. Mass fraction of Carbon in the analysed material, expressed as %wt
+chips	h	Numeric. Mass fraction of Hydrogen in the analysed material, expressed as �g.g-1 (or ppm)
+chips	he	Numeric. Mass fraction of Helium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	b	Numeric. Mass fraction of Boron in the analysed material, expressed as �g.g-1 (or ppm)
+chips	n	Numeric. Mass fraction of Nitrogen in the analysed material, expressed as %wt
+chips	f	Numeric. Mass fraction of Fluorine in the analysed material, expressed as �g.g-1 (or ppm)
+chips	ar	Numeric. Mass fraction of Argon in the analysed material, expressed as �g.g-1 (or ppm)
+chips	br	Numeric. Mass fraction of Bromine in the analysed material, expressed as �g.g-1 (or ppm)
+chips	kr	Numeric. Mass fraction of Krypton in the analysed material, expressed as �g.g-1 (or ppm)
+chips	tc	Numeric. Mass fraction of Technetium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	rh	Numeric. Mass fraction of Rhodium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	i	Numeric. Mass fraction of Iodine in the analysed material, expressed as �g.g-1 (or ppm)
+chips	xe	Numeric. Mass fraction of Xenon in the analysed material, expressed as �g.g-1 (or ppm)
+chips	ir	Numeric. Mass fraction of Iridium in the analysed material, expressed as �g.g-1 (or ppm)
+chips	pt	Numeric. Mass fraction of Platinum in the analysed material, expressed as �g.g-1 (or ppm)
+chips	au	Numeric. Mass fraction of Gold in the analysed material, expressed as �g.g-1 (or ppm)
+chips	hg	Numeric. Mass fraction of Mercury in the analysed material, expressed as �g.g-1 (or ppm)
+echantillons	id_ech	Numeric. Unique identifier of samples, used as primary key in the 'samples' table
+echantillons	id_site	Numeric. Unique identifier of sites, used as foreign key in the 'samples' table
+echantillons	id_typo	Numeric. Unique identifier of typological descriptors, used as foreign key in the 'samples' table
+echantillons	nom_ech	String. Name given to the sample
+echantillons	referent	Numeric. Person in charge of the management of sampling
+echantillons	type_metal	String. Type of metallurgy involved
+echantillons	bibreference	Numeric. Unique identifier of analytical devices in the 'literature' table, used as foreign key in the 'samples' table
+echantillons	bibreference2	Numeric. Unique identifier of analytical devices in the 'literature' table, used as foreign key in the 'samples' table in case of multiple publications
+echantillons	commentaire	String. Free comments on the sample
+elements	z_element	Numeric. Atomic number of a given chemical elements corresponding to the number of protons in the nucleus, used as primary key of the 'elements' table
+elements	symbole	String. Symbol of the chemical element as defined by the IUPAC, and referenced in the ISO 80000-9 standard
+elements	nom	String. Name given to the chemical element
+elements	masse_atomique	Numeric. Atomic mass of the chemical element, expressed as unified atomic mass units as defined by the UIPPA and reference in the ISO 80000-9 standard
+elements	masse_volumique	Numeric. Mass in tons of a volume of 1 cube meter composed of a pure chemical element
+elements	t_fusion	Numeric. Temperature at which the chemical compound melts, expressed in Celsius degrees
+elements	t_ebullition	Numeric. Temperature at which the chemical compound evaporates, expressed in Celsius degrees
+erreurs	id_erreurs	Numeric. Unique identifier of errors used as a primary key in the 'errors' table
+erreurs	id_chips	Numeric. Unique identifier of analyses in the 'analyses' table, used as a foreign key in the 'errors' table
+erreurs	o_err	Numeric. Calculated measurement error linked to the measurement of Oxygen for the corresponding analysis in 'analyses' table, expressed as %wt
+erreurs	na_err	Numeric. Calculated measurement error linked to the measurement of Sodium for the corresponding analysis in 'analyses' table, expressed as %wt
+erreurs	mg_err	Numeric. Calculated measurement error linked to the measurement of Magnesium for the corresponding analysis in 'analyses' table, expressed as %wt
+erreurs	al_err	Numeric. Calculated measurement error linked to the measurement of Aluminium for the corresponding analysis in 'analyses' table, expressed as %wt
+erreurs	si_err	Numeric. Calculated measurement error linked to the measurement of Silicon for the corresponding analysis in 'analyses' table, expressed as %wt
+erreurs	p_err	Numeric. Calculated measurement error linked to the measurement of Phosphorus for the corresponding analysis in 'analyses' table, expressed as %wt
+erreurs	s_err	Numeric. Calculated measurement error linked to the measurement of Sulphur for the corresponding analysis in 'analyses' table, expressed as %wt
+erreurs	cl_err	Numeric. Calculated measurement error linked to the measurement of Chloride for the corresponding analysis in 'analyses' table, expressed as %wt
+erreurs	k_err	Numeric. Calculated measurement error linked to the measurement of Potassium for the corresponding analysis in 'analyses' table, expressed as %wt
+erreurs	ca_err	Numeric. Calculated measurement error linked to the measurement of Calcium for the corresponding analysis in 'analyses' table, expressed as %wt
+erreurs	mn_err	Numeric. Calculated measurement error linked to the measurement of Manganese for the corresponding analysis in 'analyses' table, expressed as %wt
+erreurs	fe_err	Numeric. Calculated measurement error linked to the measurement of Iron for the corresponding analysis in 'analyses' table, expressed as %wt
+erreurs	as_err	Numeric. Calculated measurement error linked to the measurement of Arsenic for the corresponding analysis in 'analyses' table, expressed as %wt
+erreurs	ba_err	Numeric. Calculated measurement error linked to the measurement of Barium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	be_err	Numeric. Calculated measurement error linked to the measurement of Beryllium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	bi_err	Numeric. Calculated measurement error linked to the measurement of Bismuth for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	cd_err	Numeric. Calculated measurement error linked to the measurement of Cadmium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	ce_err	Numeric. Calculated measurement error linked to the measurement of Cerium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	co_err	Numeric. Calculated measurement error linked to the measurement of Cobalt for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	cr_err	Numeric. Calculated measurement error linked to the measurement of Chromium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	cs_err	Numeric. Calculated measurement error linked to the measurement of Cesium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	cu_err	Numeric. Calculated measurement error linked to the measurement of Copper for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	dy_err	Numeric. Calculated measurement error linked to the measurement of Dysprosium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	er_err	Numeric. Calculated measurement error linked to the measurement of Erbium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	eu_err	Numeric. Calculated measurement error linked to the measurement of Europium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	ga_err	Numeric. Calculated measurement error linked to the measurement of Gallium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	gd_err	Numeric. Calculated measurement error linked to the measurement of Gadolinium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	ge_err	Numeric. Calculated measurement error linked to the measurement of Germanium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	hf_err	Numeric. Calculated measurement error linked to the measurement of Hafnium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	ho_err	Numeric. Calculated measurement error linked to the measurement of Hollium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	in_err	Numeric. Calculated measurement error linked to the measurement of Holmium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	la_err	Numeric. Calculated measurement error linked to the measurement of Lanthanum for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	lu_err	Numeric. Calculated measurement error linked to the measurement of Lutetium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	mo_err	Numeric. Calculated measurement error linked to the measurement of Molybdenum for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	nb_err	Numeric. Calculated measurement error linked to the measurement of Niobium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	nd_err	Numeric. Calculated measurement error linked to the measurement of Neodymium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	ni_err	Numeric. Calculated measurement error linked to the measurement of Nickel for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	pb_err	Numeric. Calculated measurement error linked to the measurement of Lead for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	pd_err	Numeric. Calculated measurement error linked to the measurement of Palladium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	pr_err	Numeric. Calculated measurement error linked to the measurement of Praseodymium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	rb_err	Numeric. Calculated measurement error linked to the measurement of Rubidium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	sb_err	Numeric. Calculated measurement error linked to the measurement of Antimony for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	sc_err	Numeric. Calculated measurement error linked to the measurement of Scandium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	sm_err	Numeric. Calculated measurement error linked to the measurement of Samarium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	sn_err	Numeric. Calculated measurement error linked to the measurement of Tin for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	sr_err	Numeric. Calculated measurement error linked to the measurement of Strontium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	ta_err	Numeric. Calculated measurement error linked to the measurement of Tantalum for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	tb_err	Numeric. Calculated measurement error linked to the measurement of Terbium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	th_err	Numeric. Calculated measurement error linked to the measurement of Thorium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	ti_err	Numeric. Calculated measurement error linked to the measurement of Titanium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	tm_err	Numeric. Calculated measurement error linked to the measurement of Thulium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	u_err	Numeric. Calculated measurement error linked to the measurement of Uranium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	v_err	Numeric. Calculated measurement error linked to the measurement of Vanadium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	w_err	Numeric. Calculated measurement error linked to the measurement of Tungsten for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	y_err	Numeric. Calculated measurement error linked to the measurement of Yttrium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	yb_err	Numeric. Calculated measurement error linked to the measurement of Ytterbium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	zn_err	Numeric. Calculated measurement error linked to the measurement of Zinc for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+erreurs	zr_err	Numeric. Calculated measurement error linked to the measurement of Zirconium for the corresponding analysis in 'analyses' table, expressed as �g.g-1 (or ppm)
+gadm	uid	Numeric. Unique identifier of the lowest administrative category 'localite' in the 'gadm' table, used as primary key in 'gadm' table
+gadm	pays	String. Name of the country
+gadm	subdiv1	String. Name of an administrative entity of rank 1 in a country
+gadm	subdiv1_type	String. Type of administrative entity of rank 1 (province, region, etc)
+gadm	subdiv2	String. Name of an administrative entity of rank 2 in a country
+gadm	subdiv2_type	String. Type of administrative entity of rank 2 (county, department, etc)
+gadm	subdiv3	String. Name of an administrative entity of rank 3 in a country
+gadm	subdiv3_type	String. Type of administrative entity of rank 3 (district, etc)
+gadm	subdiv4	String. Name of an administrative entity of rank 4 in a country
+gadm	subdiv4_type	String. Type of administrative entity of rank 3 (village, town, etc)
+gadm	localite	String. Name of the administrative entity of lowest rank of the selection
+gadm	localite_type	String. Type of the administrative entity of lowest rank of the selection
+incertitudes	id_incertitude	Numeric. Unique identifier of the uncertainty value in the 'incertitudes' table, used as foreign key in 'incertitudes' table
+incertitudes	id_machine	Numeric. Unique identifier of the analytical device in the 'machines' table, used as foreign key in 'incertitudes' table
+incertitudes	id_element	Numeric. Atomic number of a given chemical elements corresponding to the number of protons in the nucleus, used as foreign key in 'incertitudes' table
+incertitudes	int_min	Numeric. Lower value of the amount range to which the uncertainty value expressed in the 'val_incertitude' field is related
+incertitudes	int_max	Numeric. Higher value of the amount range to which the uncertainty value expressed in the 'val_incertitude' field is related
+incertitudes	val_incertitude	Numeric. Value expressing the uncertainty of the measurement of a given element with a given analytical device and within a given amount range
+limitesdetection	id_ldd	Numeric. Unique identifier of the detection limit in the 'limitesdetection' table, used as primary key in 'limitesdetection' table
+limitesdetection	id_machine	Numeric. Unique identifier of the analytical device in the 'machines' table, used as foreign key in 'limitesdetection' table
+limitesdetection	id_element	Numeric. Atomic number of a given chemical elements corresponding to the number of protons in the nucleus, used as foreign key in 'limitesdetection' table
+limitesdetection	val_ldd	Numeric. Value of the limit of detection, expressed either as %wt or �g.g-1
+literature	id_lit	Numeric. Unique identifier of the bibliographic reference in the 'literature' table, used as primary key in 'literature' table
+literature	authors	String. List of the names of the authors
+literature	title	String. Title of the publication
+literature	journal_book	String. Name of the journal in which the reference has been published
+literature	volume	Numeric. Volume number of the journal
+literature	issue	Numeric. Issue number of the journal
+literature	pub_year	Numeric. Year of publication of the reference
+literature	pages	String. Page numbers of the publication
+literature	url	String. URL to the web page linked to the publication
+literature	doi	String. Digital object identifier given to the publication
+literature	pub_type	String. Type of publication (e.g. article, book, etc)
+machines	id_dispositif	Numeric. Unique identifier of the analytical device in the 'machines' table, used as primary key in 'machines' table
+machines	laboratoire	String. Name of the laboratory operating the analytical device
+machines	methode_analyse	String. Name of the analysis method (e.g. X-Ray spectroscopy, mass spectrometry)
+machines	marque	String. Manufacturer of the analytical device
+machines	modele	String. Model of the analytical device
+personnes	id_personne	Numeric. Unique identifier of the persons in the 'personnes' table, used as primary key in 'personnes' table
+personnes	prenom	String. First name of the person
+personnes	nom	String. Last name of the person
+personnes	organisme	String. Organisation to which the person is affiliated
+personnes	courriel	String. Email of the person
+sites	id_site	Numeric. Unique identifier of the contexts in the 'context' table, used as primary key in 'context' table
+sites	id_localite	Numeric. Unique identifier 'uuid' of the corresponding administrative entity in the 'gadm' table, used as foreing key in 'context' table
+sites	nom_site	String. Name given to the context (e.g. site name, phase name, stratigraphic unit number, etc)
+sites	centroid	Boolean. Boolean indicating whether the spatial coordinates correspond to the centroid of the administrative entity or not
+sites	srid	Numeric. Unique identifier of the spatial referencing system (here table 'spatial_ref_sys') in which the coordinates given in the 'latitude' and 'longitude' fields are projected, as defined by the EPSG following the recommandations of the ISO 6709:2008 standard
+sites	longitude	Numeric. Easting coordinates expressed either as decimal coordinates or as plane coordinates
+sites	latitude	Numeric. Northing coordinates expressed either as decimal coordinates or as plane coordinates
+sites	date_debut	Numeric. Terminus post quem of the context, following the Gregorian calendar
+sites	date_fin	Numeric. Terminus ante quem of the context, following the Gregorian calendar
+sites	doute_date	Boolean. Boolean indicating whether the dating is dubious or not
+sites	points	Geometry. Field of 'geometry' type, according to the Simple Features for SQL specification related to the ISO/IEC 9075-3:2003 standard
+sites	key_periodo	String. Unique identifier of a period in the PeriodO gazetteer, used as a foreign key in the 'context' table
+sites	key_periodo2	String. Unique identifier of an alternate period in the PeriodO gazetteer, used as a foreign key in the 'context' table
+sites	edtf	String. The data in the 'date_debut' and 'date_fin' fields is encoded as a date/time string format, as defined in the ISO 8601 standard
+sites	nom_place	String. Name given to the place in which the archaeological context is located
+spatial_ref_sys	srid	Numeric. Unique identifier of the  table 'spatial_ref_sys', used as primary key
+spatial_ref_sys	auth_name	String. Name given to the referencing system, usually by an administrative authority
+spatial_ref_sys	auth_srid	Numeric. Unique code given by the European Petroleum Survey Group to the spatial referencing system
+spatial_ref_sys	srtext	String. Large text-type field listing metadata such as the ellipsoid, the datum and the author(s) of the system
+spatial_ref_sys	proj4text	String. Defines the geometrical transformations on which the projection relies
+typo	id_typo	Numeric. Unique identifier of the contexts in the 'typology' table, used as primary key in 'typology' table
+typo	filiere	String. Defines (in french) the metallurgical process (e.g. bloomery of finery process for iron metallurgy) to which the sample is related
+typo	contexte	String. Defines (in french) the context (e.g. geological, archaeological, experimental) in which the sample has been taken
+typo	materiau	String. Defines (in french) the material type (e.g. ore, slag, etc) of which the sample is made
+typo	categorie	String. Defines (in french) the typological category of the sample, either as a complement to the material definition or a mention to the chaine operatoire
+typo	sous_categorie	String. Defines (in french) the typological sub-category of the sample, to precise the 'categorie' field (e.g. running slag, hearth bottom)
+typo	filiere_en	String. Defines (in english) the metallurgical process (e.g. bloomery of finery process for iron metallurgy) to which the sample is related
+typo	contexte_en	String. Defines (in english) the context (e.g. geological, archaeological, experimental) in which the sample has been taken
+typo	materiau_en	String. Defines (in english) the material type (e.g. ore, slag, etc) of which the sample is made
+typo	categorie_en	String. Defines (in english) the typological category of the sample, either as a complement to the material definition or a mention to the chaine operatoire
+typo	sous_categorie_en	String. Defines (in english) the typological sub-category of the sample, to precise the 'categorie' field (e.g. running slag, hearth bottom)
+typo	ark_frantic	String. URL of type Archival Resource Key to a concept in the Pactols thesaurus created by Frantiq research cluster, the concept being aligned on other databases (e.g. getty, wikidata)
