@@ -1,8 +1,7 @@
 ---
 title: "Data"
-description: ""
+description: "a new desciption"
 summary: ""
-layout: "docs"
 date: 2026-01-22T18:40:36+01:00
 lastmod: 2026-01-22T18:40:36+01:00
 draft: false
