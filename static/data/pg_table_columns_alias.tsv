@@ -1,2 +1,15 @@
 table_name	column_name	column_alias
-my_table	my_column	my_col_alias
+sites	id_site	context_id
+sites	id_localite	locality_id
+sites	nom_site	context_name
+sites	longitude	easting
+sites latitude	northing
+sites	date_debut	start_date
+sites	date_fin	end_date
+sites	doute_date	date_uncertain
+sites	nom_place	site_name
+chips	id_chips	chips_id
+chips	id_ech	sample_id
+chips	id_machinem	setup_major_id
+chips	id_machinet	setup_trace_id
+chips id_machinei	setup_isotope_id
