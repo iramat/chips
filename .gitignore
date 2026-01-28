@@ -5,6 +5,4 @@ node_modules
 public/
 resources/
 (archives)/
-static/
 doc/
-!static/data/**/*.tsv
