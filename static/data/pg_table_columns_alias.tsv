@@ -13,3 +13,8 @@ chips	id_ech	sample_id
 chips	id_machinem	setup_major_id
 chips	id_machinet	setup_trace_id
 chips id_machinei	setup_isotope_id
+chips n_crpg lab_number
+chips arsenic as
+chips indium in
+chips carbon c
+chips perte_feu loss_on_ignition
