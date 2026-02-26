@@ -4,7 +4,6 @@ param (
     [Parameter(Mandatory = $true)]
     [string]$CommitMessage
 )
-
 # Stop on first error
 $ErrorActionPreference = "Stop"
 
