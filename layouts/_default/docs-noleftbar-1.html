@@ -1,0 +1,17 @@
+{{ define "main" }}
+  {{ partial "header.html" . }}
+
+  <main class="container flex flex-wrap mx-auto px-4 mt-12">
+    <section class="w-full lg:w-10/12 px-4">
+      <article class="prose max-w-none">
+        {{ .Content }}
+      </article>
+    </section>
+
+    <aside class="w-full lg:w-2/12 px-4">
+      {{ partial "toc.html" . }}
+    </aside>
+  </main>
+
+  {{ partial "footer.html" . }}
+{{ end }}

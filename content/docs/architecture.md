@@ -6,7 +6,10 @@ summary: ""
 draft: false
 weight: 5
 # type: docs
+# layout: "baseof-nosidebar.html"
 # layout: "single-nosidebar"
+layout: "docs-noleftbar"
+# layout: "docs-noleftbar-1"
 seo:
   title: "" # custom title (optional)
   description: "" # custom description (recommended)
