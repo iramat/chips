@@ -3,7 +3,6 @@
 # locally in "content\docs\architecture.md"
 # -> pg_aliaseses_comments.tsv
 
-#%%
 import pandas as pd
 
 table_aliases=pd.read_csv("https://raw.githubusercontent.com/iramat/chips/refs/heads/hugo-files/static/data/pg_tables_alias.tsv", sep="\t")
@@ -22,23 +21,11 @@ merged_df_all = pd.merge(merged_df, table_aliases, left_on=['table_name'], right
 merged_df_all['table_alias'].fillna(merged_df_all['table_name'], inplace=True)
 merged_df_all['column_alias'].fillna(merged_df_all['column_name'], inplace=True)
 
-merged_df_all.head()
-
-# %%
-
 df = merged_df_all.drop(columns=['table_name', 'column_name', 'description'])
 df.rename(columns={'table_alias': 'table', 'column_alias': 'column'}, inplace=True)
-
-df.head(2)
 
 df = df[['table', 'column', 'comment']]
 
 
-# %%
 
 df.to_csv("C:\\Users\\TH282424\\Rprojects\\chips\\static\\data\\pg_aliaseses_comments.tsv", sep="\t", index=False)
-
-
-
-
-# %%
