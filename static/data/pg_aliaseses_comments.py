@@ -3,14 +3,16 @@
 # locally in "content\docs\architecture.md"
 # -> pg_aliaseses_comments.tsv
 
+import os
 import pandas as pd
 
-table_aliases=pd.read_csv("https://raw.githubusercontent.com/iramat/chips/refs/heads/hugo-files/static/data/pg_tables_alias.tsv", sep="\t")
+print(os.getcwd())
 
-table_columns_aliases=pd.read_csv("https://raw.githubusercontent.com/iramat/chips/refs/heads/hugo-files/static/data/pg_table_columns_alias.tsv", sep="\t")
+table_aliases=pd.read_csv("./static/data/pg_tables_alias.tsv", sep="\t")
 
-table_columns_comments=pd.read_csv("https://raw.githubusercontent.com/iramat/chips/refs/heads/hugo-files/static/data/pg_tables_columns_comments.tsv", sep="\t")
+table_columns_aliases=pd.read_csv("./static/data/pg_table_columns_alias.tsv", sep="\t")
 
+table_columns_comments=pd.read_csv("./static/data/pg_tables_columns_comments.tsv", sep="\t")
 # Merge the dataframes
 # merged_df = table_aliases.merge(table_aliases, left_on="table_name", right_on="table_name", how="left")
 
