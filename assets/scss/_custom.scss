@@ -3,3 +3,17 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.toc-sticky {
+  position: sticky;
+  top: 6rem;          /* ajuste selon la hauteur de ta navbar */
+  max-height: calc(100vh - 8rem);
+  overflow: auto;
+  padding-left: 1rem;
+  border-left: 1px solid rgba(0,0,0,.1);
+}

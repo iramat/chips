@@ -73,15 +73,16 @@
       "card-body",
       "card-list",
       "categories",
+      "col-12",
       "col-lg-10",
       "col-lg-11",
       "col-lg-12",
+      "col-lg-3",
       "col-lg-5",
       "col-lg-8",
       "col-lg-9",
-      "col-md-1",
-      "col-md-10",
       "col-md-12",
+      "col-xl-10",
       "col-xl-3",
       "col-xl-4",
       "col-xl-8",
@@ -89,6 +90,7 @@
       "container",
       "container-fluid",
       "container-lg",
+      "container-xxl",
       "content",
       "contributors",
       "created-date",
@@ -155,8 +157,8 @@
       "list-inline",
       "list-inline-item",
       "list-view",
-      "m-2",
       "mb-0",
+      "mb-3",
       "me-2",
       "me-auto",
       "me-lg-1",
@@ -242,6 +244,7 @@
       "title",
       "title-submitted",
       "toc-mobile",
+      "toc-sticky",
       "visually-hidden",
       "w-100",
       "wrap"
@@ -272,7 +275,7 @@
       "the-chemical-data-stored-in-the-db-can-then-be-used-mainly-to-address-questions-linked-either-to-techniques-material-chosen-by-metallurgists-temperature-of-the-operation-etc-or-to-the-circulation-of-raw-materials-or-metallic-products-provenance-studies",
       "toc",
       "tsvtable-0",
-      "tsvtable-4"
+      "tsvtable-5"
     ]
   }
 }

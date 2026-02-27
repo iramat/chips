@@ -16,7 +16,7 @@ chips	ca	Numeric. Mass fraction of Calcium in the analysed material, expressed a
 chips	mn	Numeric. Mass fraction of Manganese in the analysed material, expressed as %wt
 chips	fe	Numeric. Mass fraction of Iron in the analysed material, expressed as %wt
 chips	perte_feu	Numeric. Loss on ignition representing the mass fraction of volatile compounds in the analysed material
-chips	arsenic	Numeric. Mass fraction of Arsenic in the analysed material, expressed as �g.g-1 (or ppm)
+chips	arsenic	Numeric. Mass fraction of Arsenic in the analysed material, expressed as µg.g-1 (or ppm)
 chips	ba	Numeric. Mass fraction of Baryum in the analysed material, expressed as �g.g-1 (or ppm)
 chips	be	Numeric. Mass fraction of Beryllium in the analysed material, expressed as �g.g-1 (or ppm)
 chips	bi	Numeric. Mass fraction of Bismuth in the analysed material, expressed as �g.g-1 (or ppm)
@@ -67,7 +67,7 @@ chips	open	Boolean. Boolean value indicating if the related analysis is open acc
 chips	delta57fe	Numeric. Quotient of the isotopic ratio between the 57 and 54 isotopes of Iron in the sample by the isotopic ratio between the 57 and 54 isotopes of Iron in an international standard, expressed as �
 chips	delta56fe	Numeric. Quotient of the isotopic ratio between the 56 and 54 isotopes of Iron in the sample by the isotopic ratio between the 56 and 54 isotopes of Iron in an international standard, expressed as �
 chips	id_machinei	Numeric. Unique identifier of analytical devices in the 'machines' table, used as foreign key in the 'analyses' table
-chips	n_crpg	Numeric. Internal reference of the Centre de Recherches P�trographiques et g�ochimiques
+chips	n_crpg	Numeric. Internal reference of the Centre de Recherches Pétrographiques et géochimiques
 chips	bibreference	Numeric. Unique identifier of analytical devices in the 'literature' table, used as foreign key in the 'analyses' table
 chips	os187_os186	Numeric. Isotopic ratio between the 187 and 186 isotopes of Osmium
 chips	os_ppt	Numeric. Mass fraction of  in the analysed material, expressed as pg.g-1 (or ppt)

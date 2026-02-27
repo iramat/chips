@@ -35,7 +35,9 @@ Columns are described in the GitHub repository:
 <!-- {{< tsvtable "https://cdn.jsdelivr.net/gh/iramat/chips@main/metadata/pg_tables_columns_comments.tsv" >}}
  -->
 <!-- {{< tsvtable "/chips/data/pg_tables_columns_comments.tsv" >}} -->
-{{< tsvtable "data/pg_tables_columns_comments.tsv" >}}
+<!-- {{< tsvtable "data/pg_tables_columns_comments.tsv" >}} -->
+{{< tsvtable "data/pg_aliaseses_comments.tsv" >}}
+
 
 
 
