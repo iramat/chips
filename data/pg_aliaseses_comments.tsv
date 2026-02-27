@@ -70,8 +70,8 @@ analyses	setup_isotope_id	Numeric. Unique identifier of analytical devices in th
 analyses	lab_number	Numeric. Internal reference of the Centre de Recherches Pétrographiques et géochimiques
 analyses	bibreference	Numeric. Unique identifier of analytical devices in the 'literature' table, used as foreign key in the 'analyses' table
 analyses	os187_os186	Numeric. Isotopic ratio between the 187 and 186 isotopes of Osmium
-analyses	os_ppt	Numeric. Mass fraction of  in the analysed material, expressed as pg.g-1 (or ppt)
-analyses	ag	Numeric. Mass fraction of  in the analysed material, expressed as µg.g-1 (or ppm)
+analyses	os_ppt	Numeric. Mass fraction of Osmium in the analysed material, expressed as pg.g-1 (or ppt)
+analyses	ag	Numeric. Mass fraction of Silver in the analysed material, expressed as µg.g-1 (or ppm)
 analyses	sr87_sr86	Numeric. Isotopic ratio between the 87 and 86 isotopes of Strontium
 analyses	li	Numeric. Mass fraction of Lithium in the analysed material, expressed as µg.g-1 (or ppm)
 analyses	tl	Numeric. Mass fraction of Thallium in the analysed material, expressed as µg.g-1 (or ppm)
