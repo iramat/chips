@@ -4,9 +4,9 @@ analyses	sample_id	Numeric. Unique identifier of samples in the 'sample' table, 
 analyses	setup_major_id	Numeric. Unique identifier of analytical devices in the 'machines' table, used as foreign key in the 'analyses' table
 analyses	setup_trace_id	Numeric. Unique identifier of analytical devices in the 'machines' table, used as foreign key in the 'analyses' table
 analyses	setup_isotope_id	Numeric. Unique identifier of analytical devices in the 'machines' table, used as foreign key in the 'analyses' table
-analyses	lab_number	Numeric. Internal reference of the Centre de Recherches P�trographiques et g�ochimiques
-analyses	as	Numeric. Mass fraction of Arsenic in the analysed material, expressed as �g.g-1 (or ppm)
-analyses	in	Numeric. Mass fraction of Indium in the analysed material, expressed as �g.g-1 (or ppm)
+analyses	lab_number	Numeric. Internal reference of the Centre de Recherches Pétrographiques et géochimiques
+analyses	as	Numeric. Mass fraction of Arsenic in the analysed material, expressed as µg.g-1 (or ppm)
+analyses	in	Numeric. Mass fraction of Indium in the analysed material, expressed as µg.g-1 (or ppm)
 analyses	c	Numeric. Mass fraction of Carbon in the analysed material, expressed as %wt
 analyses	loss_on_ignition	Numeric. Loss on ignition representing the mass fraction of volatile compounds in the analysed material
 typology		
