@@ -1,0 +1,25 @@
+table	column	comment
+analyses	chips_id	Numeric. Unique identifier of analyses in the 'analyses' table
+analyses	sample_id	Numeric. Unique identifier of samples in the 'sample' table, used as foreign key in the 'analyses' table
+analyses	setup_major_id	Numeric. Unique identifier of analytical devices in the 'machines' table, used as foreign key in the 'analyses' table
+analyses	setup_trace_id	Numeric. Unique identifier of analytical devices in the 'machines' table, used as foreign key in the 'analyses' table
+analyses	setup_isotope_id	Numeric. Unique identifier of analytical devices in the 'machines' table, used as foreign key in the 'analyses' table
+analyses	lab_number	Numeric. Internal reference of the Centre de Recherches P�trographiques et g�ochimiques
+analyses	as	Numeric. Mass fraction of Arsenic in the analysed material, expressed as �g.g-1 (or ppm)
+analyses	in	Numeric. Mass fraction of Indium in the analysed material, expressed as �g.g-1 (or ppm)
+analyses	c	Numeric. Mass fraction of Carbon in the analysed material, expressed as %wt
+analyses	loss_on_ignition	Numeric. Loss on ignition representing the mass fraction of volatile compounds in the analysed material
+typology		
+analytical setups		
+detection limits		
+contexts	context_id	Numeric. Unique identifier of the contexts in the 'context' table, used as primary key in 'context' table
+contexts	locality_id	Numeric. Unique identifier 'uuid' of the corresponding administrative entity in the 'gadm' table, used as foreing key in 'context' table
+contexts	context_name	String. Name given to the context (e.g. site name, phase name, stratigraphic unit number, etc)
+contexts	easting	Numeric. Easting coordinates expressed either as decimal coordinates or as plane coordinates
+contexts	northing	Numeric. Northing coordinates expressed either as decimal coordinates or as plane coordinates
+contexts	start_date	Numeric. Terminus post quem of the context, following the Gregorian calendar
+contexts	end_date	Numeric. Terminus ante quem of the context, following the Gregorian calendar
+contexts	date_uncertain	Boolean. Boolean indicating whether the dating is dubious or not
+contexts	site_name	String. Name given to the place in which the archaeological context is located
+measurement errors		
+uncertainties		
