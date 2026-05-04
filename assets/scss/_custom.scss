@@ -17,3 +17,17 @@
   padding-left: 1rem;
   border-left: 1px solid rgba(0,0,0,.1);
 }
+
+// /* Custom logo sizing */
+// .site-logo {
+//   height: 50px;
+//   width: auto;
+//   vertical-align: middle;
+// }
+
+.site-logo {
+  display: block;
+  height: 50px;
+  width: auto;
+  flex-shrink: 0;
+}

@@ -3,3 +3,6 @@ other = "Welcome to CHIPS"
 
 [get_started]
 other = "CHIPS on the GEO platform"
+
+[get_started_2]
+other = "CHIPS' dashboard"
