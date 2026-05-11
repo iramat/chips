@@ -27,4 +27,5 @@
  if (!resp.ok) {
  console.error("TSV fetch failed:", resp.status, resp.statusText, url);
  document.getElementById(tableId).outerHTML =
- `&lt;p>Could not load TSV (${resp.status}).&lt;/p></description></item></channel></rss>
+ `&lt;p>Could not load TSV (${resp.status}).&lt;/p></description></item><item><title>How-to-cite</title><link>https://iramat.github.io/chips/data/how-to-cite/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://iramat.github.io/chips/data/how-to-cite/</guid><description>&lt;h2 id="data">Data&lt;/h2>
+&lt;p>&lt;strong>Data&lt;/strong> coming from the &lt;a href="https://iramat-apps.cnrs.fr/dash/">CHIPS dashboard&lt;/a>, from CSV exports, or directly from &lt;a href="https://iramat.github.io/chips/data/datasets/">API URLs&lt;/a> are separate entities distributed under the &lt;strong>CC BY 4.0 license&lt;/strong> and can be cited individually (see the &lt;code>&amp;quot;reference&amp;quot;&lt;/code> field). For example:&lt;/p></description></item></channel></rss>
