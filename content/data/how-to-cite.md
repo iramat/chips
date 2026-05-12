@@ -15,13 +15,17 @@ seo:
 
 **Data** coming from the [CHIPS dashboard](https://iramat-apps.cnrs.fr/dash/), from CSV exports, or directly from [API URLs](https://iramat.github.io/chips/data/datasets/) are separate entities distributed under the **CC BY 4.0 license** and can be cited individually (see the `"reference"` field). For example:
 
-<p align="center">
-    {{< img src="images/data-how-to-cite-example-api.png" alt="how-to-cite1" width="700" >}}<br>
-    Cite a dataset exported from the API (here <http://157.136.252.188:3000/dataset_jmilot16>)
-</p>
+<br>
 
 <p align="center">
-    {{< img src="images/data-how-to-cite-example-csv.png" alt="how-to-cite2" width="700" >}}<br>
+    {{< img src="images/data-how-to-cite-example-api.png" alt="how-to-cite1" width="1200" >}}<br>
+    Cite a dataset exported from the API (from: http://157.136.252.188:3000/dataset_jmilot16)
+</p>
+
+<br><br>
+
+<p align="center">
+    {{< img src="images/data-how-to-cite-example-csv.png" alt="how-to-cite2" width="1200" >}}<br>
     Cite a dataset exported as CSV
 </p>
 

@@ -43,7 +43,7 @@ weight = 3
   weight = 30
 
 [[footer]]
-  name = "Privacy Policy"
-  url = "/privacy/"
+  name = "About"
+  url = "/about/"
   weight = 10
 

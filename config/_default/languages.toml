@@ -1,16 +1,13 @@
 [en]
-languageName = "English"
-contentDir = "content/en"
-languageCode = "en"
-weight = 1
-# url = "en"
-# title = "CHIPS"
+  languageName = "English"
+  contentDir = "content/en"
+  weight = 10
+  [en.params]
+    languageISO = "EN"
+    languageTag = "en-US"
+    footer = "<a class='text-muted' href='https://iramat.cnrs.fr/'><img src='https://raw.githubusercontent.com/zoometh/thomashuet/master/img/inst-cnrs-iramat.png' style='height: 30px;vertical-align: middle;'></a>"
+    alertText = '<a class="alert-link stretched-link fw-normal" href="/blog/example-post/">Doks version 1.0 just shipped!</a>'
 
-[en.params]
-languageISO = "EN"
-languageTag = "en-US"
-footer = 'Brought to you BY <a class="text-muted" href="https://thulite.io/">Thulite</a>'
-alertText = '<a class="alert-link stretched-link fw-normal" href="/blog/example-post/">Doks version 1.0 just shipped!</a>'
 
 # [[en.menu.main]]
 #   identifier = "docs"
