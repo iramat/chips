@@ -1,5 +1,5 @@
 ---
-title: "Database Documentation"
+title: "Documentation"
 description: ""
 summary: ""
 layout: "docs"

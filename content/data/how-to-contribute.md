@@ -12,42 +12,18 @@ seo:
   noindex: false # false (default) or true
 ---
 
-To benefit from best practices and standardised workflows and see them findable, accessible, interoperable and fully reusable (FAIR). By adding your dataset to CHIPS, you'll benefit from a standardized framework for both data and metadata, ensuring your <a href="https://zenodo.org/communities/iramat/">Zenodo dataset's DOI</a> will be properly cited.
+## Data: add you data into CHIPS
 
-## Data
+An easy way to have your dataset registred in CHIPS and exposed as a specific dataset is to fill and send us the template: `chips_dataset_entry_template.xlsx`. The latter can be downloaded at: YYYXY. Here is a view of the -- with some records of the [`dataset_rsaage26` dataset](http://157.136.252.188:3000/dataset_rsaage26) --
 
-**Data** coming from the [CHIPS dashboard](https://iramat-apps.cnrs.fr/dash/), from CSV exports, or directly from [API URLs](https://iramat.github.io/chips/data/datasets/) are separate entities distributed under the **CC BY 4.0 license** and can be cited individually (see the `"reference"` field). For example:
+{{< tsvtable "data/chips_dataset_entry_template.tsv" >}}
 
+For scientific Q/A (ex: error calculations), please contact <alexandre.disser@cnrs.fr>, for IT related Q/A (ex: related linked ope data), please contact <thomas.huet@cnrs.fr>
 <br>
 
-<p align="center">
-    {{< img src="images/data-how-to-cite-example-api.png" alt="how-to-cite1" width="1200" >}}<br>
-    Cite a dataset exported from the API (from: http://157.136.252.188:3000/dataset_jmilot16)
-</p>
+## Database: dashboard and research software development
 
-<br><br>
+Do not hesitate to contact us with proposal, or raise an issue, on the [CHIPS GitHub repository](https://github.com/iramat/chips)
 
-<p align="center">
-    {{< img src="images/data-how-to-cite-example-csv.png" alt="how-to-cite2" width="1200" >}}<br>
-    Cite a dataset exported as CSV
-</p>
-
-## Database
-
-The **CHIPS database** itself, which provides standardization and interoperability, should be cited separately:
-
-```bibtex
-@misc{chips_database,
-  title        = {CHIPS Database -- CHImie en PaléoSidérurgie},
-  author       = {{IRAMAT-CNRS}},
-  institution  = {IRAMAT-CNRS},
-  publisher    = {IRAMAT-CNRS},
-  year         = {2026},
-  url          = {https://iramat-apps.cnrs.fr/dash/},
-  note         = {Online database, accessed 2026-05-11},
-  organization = {IRAMAT-CNRS},
-  ror          = {https://ror.org/01cw28e72}
-}
-```
 
 
