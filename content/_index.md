@@ -1,7 +1,7 @@
 ---
 title: "Welcome to CHIPS"
 description: ""
-lead: "CHImie en PaléoSidérurgie"
+lead: "<b>CHIPS database</b> - <em>Base de données CHImie en PaléoSidérurgie</em>"
 date: 2023-09-07T16:33:54+02:00
 lastmod: 2023-09-07T16:33:54+02:00
 draft: false
