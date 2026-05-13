@@ -1,5 +1,5 @@
 ## Merge table aliases, table columns aliases, and columns descriptions, to create a user-friendly TSV file for the DB documentation:
-# webpage "http://localhost:1313/chips/docs/database-description/"
+# webpage "http://localhost:1313/chips/docs/database-description/" or "https://iramat.github.io/chips/docs/description/"
 # locally in "content\docs\architecture.md"
 # -> pg_aliaseses_comments.tsv
 
