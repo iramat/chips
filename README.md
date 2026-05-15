@@ -105,11 +105,6 @@ VALUES ('instrument_incertitude','@techreport{Doe2024TechReport,
 /home/ubuntu/backup_chips_tables.sh
 ```
 
-erreurs:
-* https://zoometh.xyz/dash/dataset_leschenlohr01
-* https://zoometh.xyz/dash/dataset_mbenvenuti13
-
-
 ### notes
 
 | champs          | type                         | description                         |
