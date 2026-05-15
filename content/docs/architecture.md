@@ -20,7 +20,7 @@ seo:
 
 ## Architecture
 
-Postgres..
+CHIPS lies on PostgreSQL 11, PostGIS v2.5
 
 <p align="center">
     {{< img src="images/db_erd.png" alt="ERD diagram" width="700" >}}<br>
@@ -31,14 +31,7 @@ Postgres..
 
 Columns are described in the GitHub repository:
 
-<!-- {{< tsvtable "https://raw.githubusercontent.com/iramat/chips/main/metadata/pg_tables_columns_comments.tsv" >}} -->
-<!-- {{< tsvtable "https://cdn.jsdelivr.net/gh/iramat/chips@main/metadata/pg_tables_columns_comments.tsv" >}}
- -->
-<!-- {{< tsvtable "/chips/data/pg_tables_columns_comments.tsv" >}} -->
-<!-- {{< tsvtable "data/pg_tables_columns_comments.tsv" >}} -->
 {{< tsvtable "data/pg_aliaseses_comments.tsv" >}}
-
-
 
 
 ## Recording

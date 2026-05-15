@@ -209,6 +209,7 @@
       "navbar-expand-lg",
       "navbar-nav",
       "not-content",
+      "nowrap",
       "offcanvas",
       "offcanvas-body",
       "offcanvas-end",
@@ -263,6 +264,7 @@
       "title-submitted",
       "toc-mobile",
       "toc-sticky",
+      "tsvtable-wrapper",
       "visually-hidden",
       "w-100",
       "wrap"
@@ -296,7 +298,7 @@
       "tables-and-values",
       "toc",
       "tsvtable-0",
-      "tsvtable-5"
+      "tsvtable-1"
     ]
   }
 }
