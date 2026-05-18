@@ -24,6 +24,7 @@
       "h1",
       "h2",
       "h3",
+      "h4",
       "h5",
       "head",
       "header",
@@ -276,6 +277,7 @@
       "contribute-to-the-db",
       "data",
       "data-add-you-data-into-chips",
+      "data-input",
       "database",
       "database-dashboard-and-research-software-development",
       "doks-docs-nav",
@@ -287,7 +289,6 @@
       "offcanvasNavSection",
       "offcanvasNavSectionLabel",
       "query",
-      "recording",
       "search-form",
       "searchModal",
       "searchModalLabel",
@@ -298,7 +299,8 @@
       "tables-and-values",
       "toc",
       "tsvtable-0",
-      "tsvtable-1"
+      "tsvtable-2",
+      "workflow"
     ]
   }
 }

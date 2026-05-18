@@ -17,26 +17,40 @@ seo:
   noindex: false # false (default) or true
 ---
 
+## Workflow
 
-## Architecture
-
-CHIPS lies on PostgreSQL 11, PostGIS v2.5
+The CHIPS database is a key component of a broader workflow bringing together web-oriented technologies (API, Python dashboard, R package hosted on GitHub, etc.).
 
 <p align="center">
-    {{< img src="images/db_erd.png" alt="ERD diagram" width="700" >}}<br>
+    {{< img src="images/chips_erd.png" alt="CHIPS project workflow" width="700" >}}<br>
+  CHIPS project workflow. Circled numbers (from 1 to 5) refer to different URLs: 1. API (root): <a href="http://157.136.252.188:3000/">http://157.136.252.188:3000/</a>; 2. dashboard: <a href="https://iramat-apps.cnrs.fr/dash/">https://iramat-apps.cnrs.fr/dash/</a>; 3. <em>iRamat</em> R package: <a href="https://github.com/iramat/iRamat">https://github.com/iramat/iRamat</a>; 4. website: <a href="https://iramat.github.io/chips">https://iramat.github.io/chips</a>; 5. GEO platform <a href="https://fnp.huma-num.fr/adws/app/efbc5983-40d6-11ec-810c-a7f8dd92e681/">https://fnp.huma-num.fr/adws/app/efbc5983-40d6-11ec-810c-a7f8dd92e681/</a>
+
+</p>
+
+
+
+
+## Database
+
+### Architecture
+
+The database lies on PostgreSQL 11, PostGIS v2.5
+
+<p align="center">
+    {{< img src="images/db_erd.png" alt="CHIPS DB ERD diagram" width="700" >}}<br>
   Simplified Entity-Relations Diagram (ERD) of the CHIPS DB
 </p>
 
-### Tables and values
+#### Tables and values
 
 Columns are described in the GitHub repository:
 
 {{< tsvtable "data/pg_aliaseses_comments.tsv" >}}
 
 
-## Recording
+### Data input
 
-### Measurement Errors
+#### Measurement Errors
 > Recording Measurement Errors
 
 <p class="justify">
