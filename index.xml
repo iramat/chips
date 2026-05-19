@@ -1,14 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Welcome to CHIPS on CHIPS DB</title><link>https://iramat.github.io/chips/</link><description>Recent content in Welcome to CHIPS on CHIPS DB</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2024 Thulite</copyright><lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://iramat.github.io/chips/index.xml" rel="self" type="application/rss+xml"/><item><title>Documentation</title><link>https://iramat.github.io/chips/docs/documentation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://iramat.github.io/chips/docs/documentation/</guid><description>&lt;h2 id="workflow">Workflow&lt;/h2>
-&lt;p>The CHIPS database is a key component of a broader workflow integrating web-oriented technologies, including an API, a Python dashboard, and an R package hosted on GitHub.&lt;/p></description></item><item><title>State of interest</title><link>https://iramat.github.io/chips/docs/state-of-interest/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://iramat.github.io/chips/docs/state-of-interest/</guid><description>&lt;blockquote>
-&lt;p>why CHIPS DB?&lt;/p>&lt;/blockquote>
-&lt;p>Despite a broad consensus in favour of a global, shared repository for chemical data associated with ironworking, iron mining, smelting, and smithing activities, no initiative to establish such a global reference source had been undertaken in the field of iron archaeometallurgy research until now. The aim of the CHIPS project and database is to provide this information in a standardised and interoperable manner to anyone interested in ancient ironworking and, as such, it complies with the CNRS Open Science policies&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> and the FAIR principles.&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p></description></item><item><title>About CHIPS</title><link>https://iramat.github.io/chips/about/</link><pubDate>Thu, 07 Sep 2023 17:19:07 +0200</pubDate><guid>https://iramat.github.io/chips/about/</guid><description>&lt;center>
-&lt;img src="https://iramat.github.io/chips/images/logo-chips-round.png"
- alt="how-to-cite1"
- width="60">
-
-&lt;/center>
-&lt;br>
-&lt;p>CHIPS is a database project supported by the IRAMAT-CNRS laboratory whose main objective is to standardise iron elemental analyses and make them interoperable.&lt;/p></description></item><item><title>Datasets</title><link>https://iramat.github.io/chips/data/datasets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://iramat.github.io/chips/data/datasets/</guid><description>&lt;p>Datasets opened to the public are listed here:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Welcome to CHIPS on CHIPS DB</title><link>https://iramat.github.io/chips/</link><description>Recent content in Welcome to CHIPS on CHIPS DB</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2024 Thulite</copyright><lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://iramat.github.io/chips/index.xml" rel="self" type="application/rss+xml"/><item><title>How-to-contribute</title><link>https://iramat.github.io/chips/data/how-to-contribute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://iramat.github.io/chips/data/how-to-contribute/</guid><description>&lt;p>CHIPS aims to make iron physico-chemical analyses &lt;strong>standardised, interoperable, and citable&lt;/strong>, while being grounded in Open Science through &lt;strong>open-access publications, open-source software, and open data&lt;/strong>. We welcome external contributions to extend both the database (&lt;a href="#data">&lt;strong>data&lt;/strong>&lt;/a>) and the project’s functionalities (&lt;a href="#software">&lt;strong>software&lt;/strong>&lt;/a>).&lt;/p></description></item><item><title>Documentation</title><link>https://iramat.github.io/chips/docs/documentation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://iramat.github.io/chips/docs/documentation/</guid><description>&lt;h2 id="workflow">Workflow&lt;/h2>
+&lt;p>The CHIPS database is a key component of a broader workflow integrating web-oriented technologies, including an API, a Python dashboard, and an R package hosted on GitHub.&lt;/p></description></item><item><title>How-to-cite</title><link>https://iramat.github.io/chips/data/how-to-cite/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://iramat.github.io/chips/data/how-to-cite/</guid><description>&lt;h2 id="data">Data&lt;/h2>
+&lt;p>&lt;strong>Data&lt;/strong> coming from the &lt;a href="https://iramat-apps.cnrs.fr/dash/">CHIPS dashboard&lt;/a>, from CSV exports, or directly from &lt;a href="https://iramat.github.io/chips/data/datasets/">API URLs&lt;/a> are separate entities distributed under the &lt;strong>CC BY 4.0 license&lt;/strong> and can be cited individually (see the &lt;code>&amp;quot;reference&amp;quot;&lt;/code> field). For example:&lt;/p></description></item><item><title>Datasets</title><link>https://iramat.github.io/chips/data/datasets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://iramat.github.io/chips/data/datasets/</guid><description>&lt;p>Datasets opened to the public are listed here:&lt;/p>
 &lt;link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css">
 &lt;script src="https://code.jquery.com/jquery-3.7.1.min.js">&lt;/script>
 &lt;script src="https://cdn.datatables.net/2.0.8/js/dataTables.min.js">&lt;/script>
@@ -31,5 +23,36 @@
  if (!resp.ok) {
  console.error("TSV fetch failed:", resp.status, resp.statusText, url);
  document.getElementById(tableId).outerHTML =
- `&lt;p>Could not load TSV (${resp.status}).&lt;/p></description></item><item><title>How-to-cite</title><link>https://iramat.github.io/chips/data/how-to-cite/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://iramat.github.io/chips/data/how-to-cite/</guid><description>&lt;h2 id="data">Data&lt;/h2>
-&lt;p>&lt;strong>Data&lt;/strong> coming from the &lt;a href="https://iramat-apps.cnrs.fr/dash/">CHIPS dashboard&lt;/a>, from CSV exports, or directly from &lt;a href="https://iramat.github.io/chips/data/datasets/">API URLs&lt;/a> are separate entities distributed under the &lt;strong>CC BY 4.0 license&lt;/strong> and can be cited individually (see the &lt;code>&amp;quot;reference&amp;quot;&lt;/code> field). For example:&lt;/p></description></item><item><title>How-to-contribute</title><link>https://iramat.github.io/chips/data/how-to-contribute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://iramat.github.io/chips/data/how-to-contribute/</guid><description>&lt;p>CHIPS aims to make iron physico-chemical analyses &lt;strong>standardised, interoperable, and citable&lt;/strong>, while being grounded in Open Science through &lt;strong>open-access publications, open-source software, and open data&lt;/strong>. We welcome external contributions to extend both the database (&lt;a href="#data">&lt;strong>data&lt;/strong>&lt;/a>) and the project’s functionalities (&lt;a href="#software">&lt;strong>software&lt;/strong>&lt;/a>).&lt;/p></description></item></channel></rss>
+ `&lt;p>Could not load TSV (${resp.status}).&lt;/p></description></item><item><title>State of interest</title><link>https://iramat.github.io/chips/docs/state-of-interest/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://iramat.github.io/chips/docs/state-of-interest/</guid><description>&lt;blockquote>
+&lt;p>why CHIPS DB?&lt;/p>&lt;/blockquote>
+&lt;p>Despite a broad consensus in favour of a global, shared repository for chemical data associated with ironworking, iron mining, smelting, and smithing activities, no initiative to establish such a global reference source had been undertaken in the field of iron archaeometallurgy research until now. The aim of the CHIPS project and database is to provide this information in a standardised and interoperable manner to anyone interested in ancient ironworking and, as such, it complies with the CNRS Open Science policies&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> and the FAIR principles.&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p></description></item><item><title>Reference data</title><link>https://iramat.github.io/chips/data/reference-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://iramat.github.io/chips/data/reference-data/</guid><description>&lt;p>Reference data:&lt;/p>
+&lt;link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css">
+&lt;script src="https://code.jquery.com/jquery-3.7.1.min.js">&lt;/script>
+&lt;script src="https://cdn.datatables.net/2.0.8/js/dataTables.min.js">&lt;/script>
+
+&lt;div style="overflow-x:auto">
+ &lt;table id="tsvtable-0" class="display" style="width:100%">
+ &lt;thead>&lt;/thead>
+ &lt;tbody>&lt;/tbody>
+ &lt;/table>
+&lt;/div>
+
+&lt;script>
+(async function () {
+ const url = "\/chips\/data\/ref_elements.tsv";
+ const tableId = "tsvtable-0";
+
+ const resp = await fetch(url);
+
+ 
+ if (!resp.ok) {
+ console.error("TSV fetch failed:", resp.status, resp.statusText, url);
+ document.getElementById(tableId).outerHTML =
+ `&lt;p>Could not load TSV (${resp.status}).&lt;/p></description></item><item><title>About CHIPS</title><link>https://iramat.github.io/chips/about/</link><pubDate>Thu, 07 Sep 2023 17:19:07 +0200</pubDate><guid>https://iramat.github.io/chips/about/</guid><description>&lt;center>
+&lt;img src="https://iramat.github.io/chips/images/logo-chips-round.png"
+ alt="how-to-cite1"
+ width="60">
+
+&lt;/center>
+&lt;br>
+&lt;p>CHIPS is a database project supported by the IRAMAT-CNRS laboratory whose main objective is to standardise iron elemental analyses and make them interoperable.&lt;/p></description></item></channel></rss>
