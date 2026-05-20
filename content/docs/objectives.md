@@ -23,3 +23,8 @@ The chemical data stored in the database can primarily be used to address questi
 
 [^1]: "Open science consists of making research results ''as accessible as possible and as closed as necessary'" from this reference: CNRS. "Science Ouverte." Accessed May 20, 2026. https://www.science-ouverte.cnrs.fr/.
 [^2]: Wilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg et al. "The FAIR Guiding Principles for scientific data management and stewardship." _Scientific data_ 3, no. 1 (2016): 1-9.
+
+
+> The conception of the DB
+
+A preliminary 
