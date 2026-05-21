@@ -1,9 +1,9 @@
 ---
-title: "Datasets"
+title: "Reference data"
 description: ""
 summary: ""
 layout: "docs"
-weight: 10
+weight: 20
 # date: 2023-04-03T14:50:38+01:00
 draft: false
 seo:
@@ -13,6 +13,6 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Datasets opened to the public are listed here:
+Reference data:
 
-{{< tsvtable "data/urls_data.tsv" >}}
+{{< tsvtable "data/ref_elements.tsv" >}}

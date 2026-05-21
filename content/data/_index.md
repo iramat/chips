@@ -1,7 +1,8 @@
 ---
 title: "Data"
-description: "a new desciption"
+description: ""
 summary: ""
+layout: "docs"
 date: 2026-01-22T18:40:36+01:00
 lastmod: 2026-01-22T18:40:36+01:00
 draft: false
@@ -12,4 +13,6 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Most of the open data can be accessed and downloaded via the [**CHIPS dashboard**](https://iramat-apps.cnrs.fr/dash/). CHIPS dashboard's datasets are listed in the [**Datasets**](./datasets) section. The latter, along with the database are citables as explain in the [**How-to-Cite**](./how-to-cite) section. If you want to contribute to the CHIPS database, read the [**How-to-Contribute**](./how-to-contribute) section.
+Most of the open data can be accessed and downloaded via the [**CHIPS dashboard**](https://iramat-apps.cnrs.fr/dash/).
+<br><br>
+Reference data are avalaible in the [**Reference data**](./reference-data) section. CHIPS dashboard's datasets are listed in the [**Datasets**](./datasets) section. The latter, along with the database are citables as explain in the [**How-to-Cite**](./how-to-cite) section. If you want to contribute to the CHIPS database, read the [**How-to-Contribute**](./how-to-contribute) section.
