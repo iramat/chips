@@ -113,7 +113,7 @@ elements	masse_volumique	Numeric. Mass in tons of a volume of 1 cube meter compo
 elements	t_fusion	Numeric. Temperature at which the chemical compound melts, expressed in Celsius degrees
 elements	t_ebullition	Numeric. Temperature at which the chemical compound evaporates, expressed in Celsius degrees
 erreurs	id_erreurs	Numeric. Unique identifier of errors used as a primary key in the 'errors' table
-erreurs	id_chips	Numeric. Unique identifier of analyses in the 'analyses' table, used as a foreign key in the 'errors' table
+erreurs	id_chips	Numeric. Unique identifier of analyses in the 'analyses' table, used as a foreign key in the 'measurement errors' table
 erreurs	o_err	Numeric. Calculated measurement error linked to the measurement of Oxygen for the corresponding analysis in 'analyses' table, expressed as %wt
 erreurs	na_err	Numeric. Calculated measurement error linked to the measurement of Sodium for the corresponding analysis in 'analyses' table, expressed as %wt
 erreurs	mg_err	Numeric. Calculated measurement error linked to the measurement of Magnesium for the corresponding analysis in 'analyses' table, expressed as %wt
@@ -228,7 +228,7 @@ sites	doute_date	Boolean. Boolean indicating whether the dating is dubious or no
 sites	points	Geometry. Field of 'geometry' type, according to the Simple Features for SQL specification related to the ISO/IEC 9075-3:2003 standard
 sites	key_periodo	String. Unique identifier of a period in the PeriodO gazetteer, used as a foreign key in the 'context' table
 sites	key_periodo2	String. Unique identifier of an alternate period in the PeriodO gazetteer, used as a foreign key in the 'context' table
-sites	edtf	String. The data in the 'start_date' and 'end_date' fields is encoded as a date/time string format, as defined in the ISO 8601 standard
+sites	edtf	String. The data in the 'start_date' and 'end_date' fields is encoded as a date/time string format, as defined in the ISO 8601-2:2019 standard
 sites	nom_place	String. Name given to the place in which the archaeological context is located
 spatial_ref_sys	srid	Numeric. Unique identifier of the  table 'spatial_ref_sys', used as primary key
 spatial_ref_sys	auth_name	String. Name given to the referencing system, usually by an administrative authority

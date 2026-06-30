@@ -14,6 +14,9 @@ chips	id_machinem	setup_major_id	X n'apparait pas dans l'API/Dash
 chips	id_machinet	setup_trace_id	X n'apparait pas dans l'API/Dash
 chips	id_machinei	setup_isotope_id	X n'apparait pas dans l'API/Dash
 chips	n_crpg	lab_number	X n'apparait pas dans l'API/Dash
+chips	setup_major_id	major_setup_id	...
+chips	setup_trace_id	trace_setup_id	...
+chips	setup_isotope_id	isotope_setup_id	...
 chips	arsenic	as	V apparait dans l'API/Dash
 chips	indium	in	V apparait dans l'API/Dash
 chips	carbon	c	VX (n')apparait (pas) dans l'API/Dash <<<<<<<<< Oublié dans la création des Vues?
@@ -32,3 +35,15 @@ elements	masse_volumique	density	a faire apparaitre dans l'API/Dash ?
 elements	t_fusion	melting_temperature	a faire apparaitre dans l'API/Dash ?
 elements	t_ebullition	boiling_temperature	a faire apparaitre dans l'API/Dash ?
 elements	name_en	elemenent_name_en	a faire apparaitre dans l'API/Dash ?
+typo	filiere	process	a faire apparaitre dans l'API/Dash ?
+typo	filiere_en	process_en	a faire apparaitre dans l'API/Dash ?
+typo	categorie	category	a faire apparaitre dans l'API/Dash ?
+typo	categorie_en	category_en	a faire apparaitre dans l'API/Dash ?
+typo	sous_categorie	subcategory	a faire apparaitre dans l'API/Dash ?
+typo	sous_categorie_en	subcategory_en	a faire apparaitre dans l'API/Dash ?
+typo	materiau	material	a faire apparaitre dans l'API/Dash ?
+typo	materiau_en	material_en	a faire apparaitre dans l'API/Dash ?
+typo	contexte	context	a faire apparaitre dans l'API/Dash ?
+typo	contexte_en	context_en	a faire apparaitre dans l'API/Dash ?
+erreurs	id_erreurs	error_id	a faire apparaitre dans l'API/Dash ?
+erreurs	id_chips	chips_id	a faire apparaitre dans l'API/Dash ?
