@@ -74,4 +74,4 @@ Further documentation is available in the iramat-dev GitHub repository:
 
 ## References
 
-* [CHIPS database presentation preprint](https://zenodo.org/records/15144194), 2026, hosted on Zenodo.
+* 2026, pre-print ["_The CHIPS Database: A Repository for Reference Data on Chemical Analysis in Archaeometallurgy of Iron_"](https://zenodo.org/records/15144194) and its [PCI Archaeology recommendation](https://archaeo.peercommunityin.org/PCIArchaeology/articles/rec?id=610).

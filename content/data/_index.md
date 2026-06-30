@@ -13,6 +13,6 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Most of the open data can be accessed and downloaded via the [**CHIPS dashboard**](https://iramat-apps.cnrs.fr/dash/).
+CHIPS provides an unified view over different published datasets (open data). These can be accessed, downloaded, and cited via the [**CHIPS dashboard**](https://iramat-apps.cnrs.fr/dash/).
 <br><br>
 Reference data are avalaible in the [**Reference data**](./reference-data) section. CHIPS dashboard's datasets are listed in the [**Datasets**](./datasets) section. The latter, along with the database are citables as explain in the [**How-to-Cite**](./how-to-cite) section. If you want to contribute to the CHIPS database, read the [**How-to-Contribute**](./how-to-contribute) section.

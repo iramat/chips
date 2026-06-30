@@ -19,7 +19,9 @@ CHIPS aims to make iron physico-chemical analyses **standardised, interoperable,
 
 > Contribute your data to CHIPS
 
-An easy way to register your dataset in CHIPS and expose it as a standalone dataset is to complete and send us the [**template file `chips_dataset_entry_template.xlsx`**](https://github.com/iramat/chips/tree/hugo-files/static/data/templates), available for download from the CHIPS GitHub repository. Columns and value types are described in the [**Tables and values** section](https://iramat.github.io/chips/docs/documentation/#tables-and-values) of the database documentation. Below is a preview of the template, including sample records from the `dataset_rsaage26` dataset.
+An easy way to register your dataset in CHIPS and expose it as a standalone dataset is to complete and send us the [**template file `chips_dataset_entry_template.xlsx`**](https://github.com/iramat/chips/tree/hugo-files/static/data/templates), available for download from the CHIPS GitHub repository. Columns and value types are described in the [**Tables and values** section](https://iramat.github.io/chips/docs/documentation/#tables-and-values) of the database documentation.
+
+Below is a preview of the template, including sample records from the `dataset_rsaage26` dataset.
 
 {{< tsvtable2 "data/chips_dataset_entry_template.tsv" >}}
 

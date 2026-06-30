@@ -13,6 +13,7 @@
       "center",
       "circle",
       "code",
+      "details",
       "div",
       "em",
       "figcaption",
@@ -50,6 +51,7 @@
       "span",
       "strong",
       "style",
+      "summary",
       "sup",
       "svg",
       "table",
@@ -65,6 +67,7 @@
       "about",
       "active",
       "align-items-center",
+      "anchor",
       "bg-dots",
       "blog-header",
       "border-0",
@@ -280,6 +283,7 @@
     ],
     "ids": [
       "TableOfContents",
+      "a-short-history-of-the-db",
       "architecture",
       "buttonColorMode",
       "data",
@@ -315,6 +319,7 @@
       "toc",
       "tsvtable-0",
       "tsvtable-2",
+      "why-chips-db",
       "workflow"
     ]
   }
