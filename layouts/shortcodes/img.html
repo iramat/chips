@@ -1,3 +1,6 @@
-<img src="{{ .Get "src" | relURL }}"
-     alt="{{ .Get "alt" }}"
-     {{ with .Get "width" }}width="{{ . }}"{{ end }}>
+{{ $src := .Get "src" | relURL }}
+<a href="{{ $src }}" class="lightbox">
+  <img src="{{ $src }}"
+       alt="{{ .Get "alt" }}"
+       {{ with .Get "width" }}width="{{ . }}"{{ end }}>
+</a>

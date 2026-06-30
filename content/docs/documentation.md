@@ -16,7 +16,7 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-## Workflow
+# Workflow
 
 The CHIPS database is a key component of a broader workflow integrating web-oriented technologies, including an API, a Python dashboard, and an R package hosted on GitHub.
 
@@ -27,11 +27,11 @@ The CHIPS database is a key component of a broader workflow integrating web-orie
 
 ---
 
-## Database
+# Database
 
 The database relies on a simple data structure whose backbone consists of a **context–sample–chemistry** triplet. Each of these components is described by metadata designed either to assess data quality or to promote interoperability.
 
-### Architecture
+## Architecture
 
 The database is built on PostgreSQL 11 and PostGIS v2.5.
 
@@ -40,15 +40,15 @@ The database is built on PostgreSQL 11 and PostGIS v2.5.
   Simplified Entity–Relationship Diagram (ERD) of the CHIPS database.
 </p>
 
-#### Tables and values
+### Tables and values
 
 The columns are described in the GitHub repository:
 
 {{< tsvtable "data/pg_aliaseses_comments.tsv" >}}
 
-### Data input
+## Data input
 
-#### Measurement errors
+## Measurement errors
 
 > Recording measurement errors
 
@@ -72,6 +72,6 @@ Further documentation is available in the iramat-dev GitHub repository:
 
 `https://github.com/iramat/iramat-dev/tree/main/dbs/chips`
 
-## References
+# References
 
 * 2026, pre-print ["_The CHIPS Database: A Repository for Reference Data on Chemical Analysis in Archaeometallurgy of Iron_"](https://zenodo.org/records/15144194) and its [PCI Archaeology recommendation](https://archaeo.peercommunityin.org/PCIArchaeology/articles/rec?id=610).

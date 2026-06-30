@@ -1,4 +1,4 @@
-table	column	comment
+table	column	description
 analyses	chips_id	Numeric. Unique identifier of analyses in the 'analyses' table
 analyses	sample_id	Numeric. Unique identifier of samples in the 'sample' table, used as foreign key in the 'analyses' table
 analyses	setup_major_id	Numeric. Unique identifier of analytical devices in the 'machines' table, used as foreign key in the 'analyses' table
@@ -105,13 +105,14 @@ echantillons	type_metal	String. Type of metallurgy involved
 echantillons	bibreference	Numeric. Unique identifier of analytical devices in the 'literature' table, used as foreign key in the 'samples' table
 echantillons	bibreference2	Numeric. Unique identifier of analytical devices in the 'literature' table, used as foreign key in the 'samples' table in case of multiple publications
 echantillons	commentaire	String. Free comments on the sample
-elements	z_element	Numeric. Atomic number of a given chemical elements corresponding to the number of protons in the nucleus, used as primary key of the 'elements' table
-elements	symbole	String. Symbol of the chemical element as defined by the IUPAC, and referenced in the ISO 80000-9 standard
+elements	atomic_number	Numeric. Atomic number of a given chemical elements corresponding to the number of protons in the nucleus, used as primary key of the 'elements' table
+elements	atomic_number	Numeric. Atomic number of a given chemical elements corresponding to the number of protons in the nucleus, used as primary key of the 'elements' table
+elements	chemical_symbol	String. Symbol of the chemical element as defined by the IUPAC, and referenced in the ISO 80000-9 standard
 elements	nom	String. Name given to the chemical element
-elements	masse_atomique	Numeric. Atomic mass of the chemical element, expressed as unified atomic mass units as defined by the UIPPA and reference in the ISO 80000-9 standard
-elements	masse_volumique	Numeric. Mass in tons of a volume of 1 cube meter composed of a pure chemical element
-elements	t_fusion	Numeric. Temperature at which the chemical compound melts, expressed in Celsius degrees
-elements	t_ebullition	Numeric. Temperature at which the chemical compound evaporates, expressed in Celsius degrees
+elements	atomic_weight	Numeric. Atomic mass of the chemical element, expressed as unified atomic mass units as defined by the UIPPA and reference in the ISO 80000-9 standard
+elements	density	Numeric. Mass in tons of a volume of 1 cube meter composed of a pure chemical element
+elements	melting_temperature	Numeric. Temperature at which the chemical compound melts, expressed in Celsius degrees
+elements	boiling_temperature	Numeric. Temperature at which the chemical compound evaporates, expressed in Celsius degrees
 measurement errors	id_erreurs	Numeric. Unique identifier of errors used as a primary key in the 'errors' table
 measurement errors	id_chips	Numeric. Unique identifier of analyses in the 'analyses' table, used as a foreign key in the 'errors' table
 measurement errors	o_err	Numeric. Calculated measurement error linked to the measurement of Oxygen for the corresponding analysis in 'analyses' table, expressed as %wt
@@ -205,11 +206,11 @@ literature	pages	String. Page numbers of the publication
 literature	url	String. URL to the web page linked to the publication
 literature	doi	String. Digital object identifier given to the publication
 literature	pub_type	String. Type of publication (e.g. article, book, etc)
-analytical setups	id_dispositif	Numeric. Unique identifier of the analytical device in the 'machines' table, used as primary key in 'machines' table
-analytical setups	laboratoire	String. Name of the laboratory operating the analytical device
-analytical setups	methode_analyse	String. Name of the analysis method (e.g. X-Ray spectroscopy, mass spectrometry)
-analytical setups	marque	String. Manufacturer of the analytical device
-analytical setups	modele	String. Model of the analytical device
+analytical setups	setup_id	Numeric. Unique identifier of the analytical device in the 'machines' table, used as primary key in 'machines' table
+analytical setups	laboratory	String. Name of the laboratory operating the analytical device
+analytical setups	analytical_method	String. Name of the analysis method (e.g. X-Ray spectroscopy, mass spectrometry)
+analytical setups	manufacturer	String. Manufacturer of the analytical device
+analytical setups	model	String. Model of the analytical device
 personnes	id_personne	Numeric. Unique identifier of the persons in the 'personnes' table, used as primary key in 'personnes' table
 personnes	prenom	String. First name of the person
 personnes	nom	String. Last name of the person
@@ -228,7 +229,7 @@ contexts	date_uncertain	Boolean. Boolean indicating whether the dating is dubiou
 contexts	points	Geometry. Field of 'geometry' type, according to the Simple Features for SQL specification related to the ISO/IEC 9075-3:2003 standard
 contexts	key_periodo	String. Unique identifier of a period in the PeriodO gazetteer, used as a foreign key in the 'context' table
 contexts	key_periodo2	String. Unique identifier of an alternate period in the PeriodO gazetteer, used as a foreign key in the 'context' table
-contexts	edtf	String. The data in the 'start_date' and 'end_date' fields is encoded as a date/time string format, as defined in the ISO 8601 standard
+contexts	edtf	String. The data in the 'start_date' and 'end_date' fields is encoded as a date/time string format, as defined in the ISO 8601-2:2019 standard
 contexts	site_name	String. Name given to the place in which the archaeological context is located
 spatial_ref_sys	srid	Numeric. Unique identifier of the  table 'spatial_ref_sys', used as primary key
 spatial_ref_sys	auth_name	String. Name given to the referencing system, usually by an administrative authority

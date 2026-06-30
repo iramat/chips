@@ -1,6 +1,6 @@
 ## Merge table aliases, table columns aliases, and columns descriptions, to create a user-friendly TSV file for the DB documentation:
 # webpage "http://localhost:1313/chips/docs/database-description/" or "https://iramat.github.io/chips/docs/description/"
-# locally in "content\docs\architecture.md"
+# locally in "content\docs\documentation.md"
 # -> pg_aliaseses_comments.tsv
 
 import os
@@ -24,9 +24,9 @@ merged_df_all['table_alias'].fillna(merged_df_all['table_name'], inplace=True)
 merged_df_all['column_alias'].fillna(merged_df_all['column_name'], inplace=True)
 
 df = merged_df_all.drop(columns=['table_name', 'column_name', 'description'])
-df.rename(columns={'table_alias': 'table', 'column_alias': 'column'}, inplace=True)
+df.rename(columns={'table_alias': 'table', 'column_alias': 'column', 'comment': 'description'}, inplace=True)
 
-df = df[['table', 'column', 'comment']]
+df = df[['table', 'column', 'description']]
 
 
 
