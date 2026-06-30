@@ -24,7 +24,6 @@
       "h1",
       "h2",
       "h3",
-      "h4",
       "h5",
       "head",
       "header",
@@ -285,7 +284,6 @@
     "ids": [
       "TableOfContents",
       "a-short-history-of-the-db",
-      "architecture",
       "buttonColorMode",
       "data",
       "data-authorship",
@@ -318,11 +316,11 @@
       "software",
       "svg-info-circle",
       "table-descriptions",
-      "tables-and-values",
+      "tables-and-fields",
       "toc",
       "tsvtable-0",
+      "tsvtable-1",
       "tsvtable-2",
-      "tsvtable-3",
       "why-chips-db",
       "workflow"
     ]

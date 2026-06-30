@@ -16,53 +16,38 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-# Workflow
 
-The CHIPS database is a key component of a broader workflow integrating web-oriented technologies, including an API, a Python dashboard, and an R package hosted on GitHub.
-
-<p align="center">
-    {{< img src="images/chips_erd.png" alt="CHIPS project workflow" width="700" >}}<br>
-  CHIPS project workflow. Circled numbers (1–5) refer to the following resources: 1. API (root): <a href="http://157.136.252.188:3000/">http://157.136.252.188:3000/</a>; 2. Dashboard: <a href="https://iramat-apps.cnrs.fr/dash/">https://iramat-apps.cnrs.fr/dash/</a>; 3. <em>iRamat</em> R package: <a href="https://github.com/iramat/iRamat">https://github.com/iramat/iRamat</a>; 4. Website: <a href="https://iramat.github.io/chips">https://iramat.github.io/chips</a>; 5. GEO platform: <a href="https://fnp.huma-num.fr/adws/app/efbc5983-40d6-11ec-810c-a7f8dd92e681/">https://fnp.huma-num.fr/adws/app/efbc5983-40d6-11ec-810c-a7f8dd92e681/</a>.
-</p>
-
----
+This page presents the [database](#database), its [tables and fields](#tables-and-fields), [data input](#data-input) best practices, and the broader [workflow](#workflow) for ensuring the reusability of CHIPS data.
 
 # Database
 
-The database relies on a simple data structure whose backbone consists of a **context–sample–chemistry** triplet. Each of these components is described by metadata designed either to assess data quality or to promote interoperability.
-
-## Architecture
-
-The database is built on PostgreSQL 11 and PostGIS v2.5.
+The database is built on PostgreSQL 11 and PostGIS v2.5. It relies on a simple data structure whose backbone consists of a **context–sample–chemistry** triplet. Each of these components is described by metadata designed either to assess data quality or to promote interoperability.
 
 <p align="center">
     {{< img src="images/db_erd.png" alt="CHIPS DB ERD diagram" width="700" >}}<br>
   Simplified Entity–Relationship Diagram (ERD) of the CHIPS database.
 </p>
 
-### Tables and values
+## Tables and fields
 
 This section provides description on [tables](#table-descriptions) and [tables' fields](#fields-descriptions).
 
-#### Table descriptions
+### Table descriptions
 
 The dynamic datatable below describes the database tables:
 
 {{< tsvtable "data/pg_tables_comments.tsv" >}}
 
-#### Fields descriptions
+### Fields descriptions
 
 The dynamic datatable below describes the fields of the database tables:
 
 {{< tsvtable "data/pg_aliaseses_comments.tsv" >}}
 
 
-
-Identify and geolocate archaeological contexts
-
 ## Data input
 
-## Measurement errors
+### Measurement errors
 
 > Recording measurement errors
 
@@ -86,6 +71,16 @@ Further documentation is available in the iramat-dev GitHub repository:
 
 `https://github.com/iramat/iramat-dev/tree/main/dbs/chips`
 
-# References
+## Workflow
+
+The CHIPS database is a key component of a broader workflow integrating web-oriented technologies, including an API, a Python dashboard, and an R package hosted on GitHub.
+
+<p align="center">
+    {{< img src="images/chips_erd.png" alt="CHIPS project workflow" width="700" >}}<br>
+  CHIPS project workflow. Circled numbers (1–5) refer to the following resources: 1. API (root): <a href="http://157.136.252.188:3000/">http://157.136.252.188:3000/</a>; 2. Dashboard: <a href="https://iramat-apps.cnrs.fr/dash/">https://iramat-apps.cnrs.fr/dash/</a>; 3. <em>iRamat</em> R package: <a href="https://github.com/iramat/iRamat">https://github.com/iramat/iRamat</a>; 4. Website: <a href="https://iramat.github.io/chips">https://iramat.github.io/chips</a>; 5. GEO platform: <a href="https://fnp.huma-num.fr/adws/app/efbc5983-40d6-11ec-810c-a7f8dd92e681/">https://fnp.huma-num.fr/adws/app/efbc5983-40d6-11ec-810c-a7f8dd92e681/</a>.
+</p>
+
+
+## References
 
 * 2026, pre-print ["_The CHIPS Database: A Repository for Reference Data on Chemical Analysis in Archaeometallurgy of Iron_"](https://zenodo.org/records/15144194) and its [PCI Archaeology recommendation](https://archaeo.peercommunityin.org/PCIArchaeology/articles/rec?id=610).

@@ -237,14 +237,14 @@ spatial_ref_sys	auth_srid	Numeric. Unique code given by the European Petroleum S
 spatial_ref_sys	srtext	String. Large text-type field listing metadata such as the ellipsoid, the datum and the author(s) of the system
 spatial_ref_sys	proj4text	String. Defines the geometrical transformations on which the projection relies
 typology	id_typo	Numeric. Unique identifier of the contexts in the 'typology' table, used as primary key in 'typology' table
-typology	process	String. Defines (in french) the metallurgical process (e.g. bloomery of finery process for iron metallurgy) to which the sample is related
-typology	context	String. Defines (in french) the context (e.g. geological, archaeological, experimental) in which the sample has been taken
-typology	material	String. Defines (in french) the material type (e.g. ore, slag, etc) of which the sample is made
-typology	category	String. Defines (in french) the typological category of the sample, either as a complement to the material definition or a mention to the chaine operatoire
-typology	subcategory	String. Defines (in french) the typological sub-category of the sample, to precise the 'categorie' field (e.g. running slag, hearth bottom)
-typology	process_en	String. Defines (in english) the metallurgical process (e.g. bloomery of finery process for iron metallurgy) to which the sample is related
-typology	context_en	String. Defines (in english) the context (e.g. geological, archaeological, experimental) in which the sample has been taken
-typology	material_en	String. Defines (in english) the material type (e.g. ore, slag, etc) of which the sample is made
-typology	category_en	String. Defines (in english) the typological category of the sample, either as a complement to the material definition or a mention to the chaine operatoire
-typology	subcategory_en	String. Defines (in english) the typological sub-category of the sample, to precise the 'categorie' field (e.g. running slag, hearth bottom)
+typology	filiere	String. Defines (in french) the metallurgical process (e.g. bloomery of finery process for iron metallurgy) to which the sample is related
+typology	contexte	String. Defines (in french) the context (e.g. geological, archaeological, experimental) in which the sample has been taken
+typology	materiau	String. Defines (in french) the material type (e.g. ore, slag, etc) of which the sample is made
+typology	categorie	String. Defines (in french) the typological category of the sample, either as a complement to the material definition or a mention to the chaine operatoire
+typology	sous_categorie	String. Defines (in french) the typological sub-category of the sample, to precise the 'categorie' field (e.g. running slag, hearth bottom)
+typology	filiere_en	String. Defines (in english) the metallurgical process (e.g. bloomery of finery process for iron metallurgy) to which the sample is related
+typology	contexte_en	String. Defines (in english) the context (e.g. geological, archaeological, experimental) in which the sample has been taken
+typology	materiau_en	String. Defines (in english) the material type (e.g. ore, slag, etc) of which the sample is made
+typology	categorie_en	String. Defines (in english) the typological category of the sample, either as a complement to the material definition or a mention to the chaine operatoire
+typology	sous_categorie_en	String. Defines (in english) the typological sub-category of the sample, to precise the 'categorie' field (e.g. running slag, hearth bottom)
 typology	ark_frantic	String. URL of type Archival Resource Key to a concept in the Pactols thesaurus created by Frantiq research cluster, the concept being aligned on other databases (e.g. getty, wikidata)
