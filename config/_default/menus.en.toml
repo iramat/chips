@@ -11,22 +11,34 @@
   url = "/tutorial/lorem/"
 
 [[main]]
-name = "Documentation"
-pageRef = "docs"
+name = "State of Interest"
+pageRef = "objectives"
 url = "en/docs" # TODO: less 'hardcoded'
 weight = 1
 
 [[main]]
-name = "Data"
-pageRef = "data"
-url = "en/data" # TODO: less 'hardcoded'
+name = "DB documentation"
+pageRef = "docs"
+url = "en/docs" # TODO: less 'hardcoded'
 weight = 2
+
+# [[main]]
+# name = "Data"
+# pageRef = "data"
+# url = "en/data" # TODO: less 'hardcoded'
+# weight = 2
+
+[[main]]
+name = "Dashboard documentation"
+pageRef = "dashboard"
+url = "en/dashboard" # TODO: less 'hardcoded'
+weight = 3
 
 [[main]]
 name = "Contact"
 pageRef = "contact"
 url = "en/contact" # TODO: less 'hardcoded'
-weight = 3
+weight = 4
 
 # [[main]]
 # name = "Blog"

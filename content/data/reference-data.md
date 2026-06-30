@@ -13,6 +13,4 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Reference data:
 
-{{< tsvtable "data/ref_elements.tsv" >}}
