@@ -42,9 +42,23 @@ The database is built on PostgreSQL 11 and PostGIS v2.5.
 
 ### Tables and values
 
-The columns are described in the GitHub repository:
+This section provides description on [tables](#table-descriptions) and [tables' fields](#fields-descriptions).
+
+#### Table descriptions
+
+The dynamic datatable below describes the database tables:
+
+{{< tsvtable "data/pg_tables_comments.tsv" >}}
+
+#### Fields descriptions
+
+The dynamic datatable below describes the fields of the database tables:
 
 {{< tsvtable "data/pg_aliaseses_comments.tsv" >}}
+
+
+
+Identify and geolocate archaeological contexts
 
 ## Data input
 

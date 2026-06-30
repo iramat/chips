@@ -1,4 +1,4 @@
-table	column	description
+table	field	description
 analyses	chips_id	Numeric. Unique identifier of analyses in the 'analyses' table
 analyses	sample_id	Numeric. Unique identifier of samples in the 'sample' table, used as foreign key in the 'analyses' table
 analyses	setup_major_id	Numeric. Unique identifier of analytical devices in the 'machines' table, used as foreign key in the 'analyses' table

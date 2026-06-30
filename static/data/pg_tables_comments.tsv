@@ -1,0 +1,14 @@
+table	description
+analyses	Stores chemical and isotopic analytical results for samples, including major and trace element concentrations, isotope ratios, laboratory references, analytical setup links, and bibliographic references documenting each analysis.
+echantillons	Stores sample records, linking each sample to its site, typological classification, sampling manager, metallurgy type, bibliographic references, and free-text comments.
+elements	Reference table for chemical elements, including atomic number, IUPAC chemical symbol, element name, atomic weight, density, melting temperature, and boiling temperature.
+measurement errors	Stores calculated measurement errors associated with analyses, with one error value per measured chemical element and a foreign key linking each error record to its corresponding analysis.
+gadm	Stores hierarchical geographic and administrative location names, from country through administrative subdivisions to locality, including the administrative type at each level.
+uncertainties	Stores analytical uncertainty values by instrument, element, and concentration interval, defining the uncertainty applicable within each minimum and maximum measurement range.
+detection limits	Stores limits of detection for chemical elements measured by analytical devices, linking each detection limit value to an instrument and element.
+literature	Stores bibliographic references used in the database, including authors, title, journal or book, volume, issue, publication year, pages, URL, DOI, and publication type.
+analytical setups	Stores metadata about analytical devices and methods, including laboratory, analytical method, instrument manufacturer, and model.
+personnes	Stores information about people involved in the project, including first name, last name, affiliated organization, and email address.
+contexts	Stores archaeological, geographic, or sampling context information, including locality links, context name, spatial coordinates, coordinate reference system, date range, uncertainty flag, PeriodO keys, EDTF date, and site name.
+spatial_ref_sys	Reference table for spatial reference systems, including SRID identifiers, authority names and codes, WKT metadata, and PROJ.4 transformation definitions.
+typology	Stores typological classifications for samples in French and English, covering metallurgical process, context, material, category, sub-category, and external ARK reference.

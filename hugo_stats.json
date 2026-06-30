@@ -24,6 +24,7 @@
       "h1",
       "h2",
       "h3",
+      "h4",
       "h5",
       "head",
       "header",
@@ -293,6 +294,7 @@
       "doks-docs-nav",
       "doks-language-current",
       "doks-languages",
+      "fields-descriptions",
       "fn:1",
       "fn:2",
       "fn:3",
@@ -315,10 +317,12 @@
       "socialMenu",
       "software",
       "svg-info-circle",
+      "table-descriptions",
       "tables-and-values",
       "toc",
       "tsvtable-0",
       "tsvtable-2",
+      "tsvtable-3",
       "why-chips-db",
       "workflow"
     ]

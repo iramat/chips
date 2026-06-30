@@ -24,9 +24,9 @@ merged_df_all['table_alias'].fillna(merged_df_all['table_name'], inplace=True)
 merged_df_all['column_alias'].fillna(merged_df_all['column_name'], inplace=True)
 
 df = merged_df_all.drop(columns=['table_name', 'column_name', 'description'])
-df.rename(columns={'table_alias': 'table', 'column_alias': 'column', 'comment': 'description'}, inplace=True)
+df.rename(columns={'table_alias': 'table', 'column_alias': 'field', 'comment': 'description'}, inplace=True)
 
-df = df[['table', 'column', 'description']]
+df = df[['table', 'field', 'description']]
 
 
 
