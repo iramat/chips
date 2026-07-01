@@ -159,11 +159,12 @@ The CHIPS database is a key component of a broader workflow integrating web-orie
   CHIPS project workflow. Circled numbers (1–5) refer to the following resources: 1. API (root): <a href="http://157.136.252.188:3000/">http://157.136.252.188:3000/</a>; 2. Dashboard: <a href="https://iramat-apps.cnrs.fr/dash/">https://iramat-apps.cnrs.fr/dash/</a>; 3. <em>iRamat</em> R package: <a href="https://github.com/iramat/iRamat">https://github.com/iramat/iRamat</a>; 4. Website: <a href="https://iramat.github.io/chips">https://iramat.github.io/chips</a>; 5. GEO platform: <a href="https://fnp.huma-num.fr/adws/app/efbc5983-40d6-11ec-810c-a7f8dd92e681/">https://fnp.huma-num.fr/adws/app/efbc5983-40d6-11ec-810c-a7f8dd92e681/</a>.
 </p>
 
+{{< callout context="note" title="Contact" icon="outline/info-circle" >}}
+For scientific questions (e.g., error calculations), please contact [alexandre.disser@cnrs.fr](mailto:alexandre.disser@cnrs.fr). For IT-related questions (e.g., linked open data), please contact [thomas.huet@cnrs.fr](mailto:thomas.huet@cnrs.fr). See also the [Contact](https://iramat.github.io/chips/contact/) section.
+{{< /callout >}}
 
 ## References
 
 * 2026, pre-print ["_The CHIPS Database: A Repository for Reference Data on Chemical Analysis in Archaeometallurgy of Iron_"](https://zenodo.org/records/15144194) and its [PCI Archaeology recommendation](https://archaeo.peercommunityin.org/PCIArchaeology/articles/rec?id=610).
 
-{{< callout context="note" title="Contact" icon="outline/info-circle" >}}
-For scientific questions (e.g., error calculations), please contact [alexandre.disser@cnrs.fr](mailto:alexandre.disser@cnrs.fr). For IT-related questions (e.g., linked open data), please contact [thomas.huet@cnrs.fr](mailto:thomas.huet@cnrs.fr). See also the [Contact](https://iramat.github.io/chips/contact/) section.
-{{< /callout >}}
+

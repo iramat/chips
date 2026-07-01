@@ -17,7 +17,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-CHIPS' dashboard -- developed with the Python package `dash`-- provides a synoptic and intuitive interface for data exploration, including zoomable distribution maps and dynamic visualizations such as line charts and ternary plots.
+CHIPS' dashboard[^1] provides a synoptic and intuitive interface for data exploration, including zoomable distribution maps and dynamic visualizations such as line charts and ternary plots.
 
 The dashboard is publicly accessible at: <https://iramat-apps.cnrs.fr/dash/>
 
@@ -29,6 +29,16 @@ The dashboard landing page uses a dynamic Leaflet interface with common geoweb f
     {{< img src="images/dash-page-landing.png" alt="CHIPS dashboard landing page" width="800" >}}<br>
   Landing page of the CHIPS dashboard, showing the spatial distribution of CHIPS interoperable (API-based) datasets.
 </p>
+
+### Data selection
+
+Data from multiple published datasets can be selected simultaneously using the Leaflet selection tools (rectangle, polygon, etc.) on the top-left corner of the map, and exported as a single CSV file.
+
+<p align="center">
+    {{< img src="images/dash-tuto-export-csv.png" alt="CHIPS dashboard downloading from different datasets" width="800" >}}<br>
+    Downloading and exporting data from multiple datasets using the Leaflet tools (top-left corner of the map)
+</p>
+
 
 ### Dataset selection
 
@@ -42,7 +52,7 @@ From this page, users can access data from individual datasets. For example, the
 
 From this point, the left sidebar offers direct access to:
 
-- **API**: interface external applications (for example, the R package `iRamat`) without downloading the data.
+- **API**: interface external applications (for example, the [R *iRamat* package](https://github.com/iramat/iRamat)) without downloading the data.
 - **CSV**: download the complete dataset together with its references.
 - **Line Chart** and **Ternary Plot**: dynamically visualize the data (zooming, hovering, pop-up windows, etc.).
 
@@ -82,5 +92,7 @@ If you encounter an issue, please do not hesitate to [open an issue](https://git
 The source code of the dashboard is available on [GitHub](https://github.com/iramat/iramat-functions/tree/main/dashboard).
 
 {{< callout context="note" title="R package" icon="outline/info-circle" >}}
-Alongside the Python-based dashboard, the CHIPS database is accompanied by the [**R *iRamat* package**](https://github.com/iramat/iRamat), which facilitates the integration of CHIPS data into an R environment.
+Alongside the Python-based dashboard, the CHIPS database is accompanied by the [R *iRamat* package](https://github.com/iramat/iRamat), which facilitates the integration of CHIPS data into an R environment.
 {{< /callout >}}
+
+[^1]: The dashboard is developed with the Python package `dash` and relies entirely on the CHIPS API endpoints exposed by the PostgREST web server, dynamically retrieving data in real time to generate maps, visualizations, and data exports.

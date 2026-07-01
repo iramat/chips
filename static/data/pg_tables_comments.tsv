@@ -1,6 +1,6 @@
 table	description
 analyses	Stores chemical and isotopic analytical results for samples, including major and trace element concentrations, isotope ratios, laboratory references, analytical setup links, and bibliographic references documenting each analysis.
-echantillons	Stores sample records, linking each sample to its site, typological classification, sampling manager, metallurgy type, bibliographic references, and free-text comments.
+samples	Stores sample records, linking each sample to its site, typological classification, sampling manager, metallurgy type, bibliographic references, and free-text comments.
 elements	Reference table for chemical elements, including atomic number, IUPAC chemical symbol, element name, atomic weight, density, melting temperature, and boiling temperature.
 measurement errors	Stores calculated measurement errors associated with analyses, with one error value per measured chemical element and a foreign key linking each error record to its corresponding analysis.
 gadm	Stores hierarchical geographic and administrative location names, from country through administrative subdivisions to locality, including the administrative type at each level.
