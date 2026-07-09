@@ -13,6 +13,4 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Datasets opened to the public are listed here:
 
-{{< tsvtable "data/urls_data.tsv" >}}

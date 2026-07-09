@@ -264,7 +264,6 @@
       "wrap"
     ],
     "ids": [
-      "TableOfContents",
       "a-short-history-of-the-db",
       "accessing-the-raw-data",
       "analytical-data",
@@ -313,7 +312,6 @@
       "tables-and-fields",
       "ternary-plot",
       "toc",
-      "tsvtable-0",
       "tsvtable-1",
       "tsvtable-2",
       "tsvtable-3",
