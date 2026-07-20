@@ -1,4 +1,4 @@
-url_data	is_reference_data	description	dataset_name	bibreference_num
+url_data	is_reference_data	description	dataset_name	bibreference_num	dataset_num
 http://157.136.252.188:3000/ref_elements	Y	Atomic number	None	None
 http://157.136.252.188:3000/dataset_tyoungxx	N	Dataset	dataset_tyoungxx	ch.bibreference >= 20 AND ch.bibreference <= 71
 http://157.136.252.188:3000/dataset_adisser17	N	Dataset	dataset_adisser17	ch.bibreference = 1
