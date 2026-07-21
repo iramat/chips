@@ -19,7 +19,10 @@ seo:
 
 CHIPS' dashboard[^1] provides a synoptic and intuitive interface for data exploration, including zoomable distribution maps and dynamic visualizations such as line charts and ternary plots.
 
-The dashboard is publicly accessible at: <https://iramat-apps.cnrs.fr/dash/>
+{{< callout context="note" title="Dashboard and datasets" icon="outline/info-circle" >}}
+The dashboard is publicly accessible at: <https://iramat-apps.cnrs.fr/dash/>, while published datasets are listed in the [DB documentation section](https://iramat.github.io/chips/docs/#analytical-data)
+{{< /callout >}}
+
 
 ## Spatial distribution of datasets
 

@@ -1,25 +1,25 @@
-url_data	is_reference_data	description	dataset_name	bibreference_num	dataset_num
-https://iramat-apps.cnrs.fr/api/ref_elements	Y	Atomic number	None	None	None
-https://iramat-apps.cnrs.fr/api/dataset_tyoungxx	N	Dataset	dataset_tyoungxx	ch.bibreference >= 20 AND ch.bibreference <= 71	j.id_dataset = 19
-https://iramat-apps.cnrs.fr/api/dataset_adisser17	N	Dataset	dataset_adisser17	ch.bibreference = 1	j.id_dataset = 1
-https://iramat-apps.cnrs.fr/api/dataset_gzabinski23	N	Dataset	dataset_gzabinski23	ch.bibreference = 19	j.id_dataset = 18
-https://iramat-apps.cnrs.fr/api/dataset_gpages22	N	Dataset	dataset_gpages22	ch.bibreference = 2	j.id_dataset = 2
-https://iramat-apps.cnrs.fr/api/dataset_vserneels93	N	Dataset	dataset_vserneels93	ch.bibreference = 17	j.id_dataset = 16
-https://iramat-apps.cnrs.fr/api/dataset_sleroy12	N	Dataset	dataset_sleroy12	ch.bibreference = 4	j.id_dataset = 4
-https://iramat-apps.cnrs.fr/api/dataset_pdillmann17	N	Dataset	dataset_pdillmann17	ch.bibreference = 6	j.id_dataset = 5
-https://iramat-apps.cnrs.fr/api/dataset_amdesaulty8a	N	Dataset	dataset_amdesaulty8a	ch.bibreference = 7	j.id_dataset = 6
-https://iramat-apps.cnrs.fr/api/dataset_amdesaulty8b	N	Dataset	dataset_amdesaulty8b	ch.bibreference = 8	j.id_dataset = 7
-https://iramat-apps.cnrs.fr/api/dataset_jmilot16	N	Dataset	dataset_jmilot16	ch.bibreference = 9	j.id_dataset = 8
-https://iramat-apps.cnrs.fr/api/dataset_mpcoustures06	N	Dataset	dataset_mpcoustures06	ch.bibreference = 10	j.id_dataset = 9
-https://iramat-apps.cnrs.fr/api/dataset_gstdidier17	N	Dataset	dataset_gstdidier17	ch.bibreference = 11	j.id_dataset = 10
-https://iramat-apps.cnrs.fr/api/dataset_mbrauns13	N	Dataset	dataset_mbrauns13	ch.bibreference = 13	j.id_dataset = 12
-https://iramat-apps.cnrs.fr/api/dataset_lheritier20	N	Dataset	dataset_lheritier20	ch.bibreference = 14	j.id_dataset = 13
-https://iramat-apps.cnrs.fr/api/dataset_mleroy97	N	Dataset	dataset_mleroy97	ch.bibreference = 15	j.id_dataset = 14
-https://iramat-apps.cnrs.fr/api/dataset_mleroy24	N	Dataset	dataset_mleroy24	ch.bibreference = 16	j.id_dataset = 15
-https://iramat-apps.cnrs.fr/api/dataset_leschenlohr01	N	Dataset	dataset_leschenlohr01	ch.bibreference = 18	j.id_dataset = 17
-https://iramat-apps.cnrs.fr/api/dataset_tivancan21	N	Dataset	dataset_tivancan21	ch.bibreference = 77 	j.id_dataset = 20
-https://iramat-apps.cnrs.fr/api/dataset_pmameli14	N	Dataset	dataset_pmameli14	ch.bibreference = 78	j.id_dataset = 21
-https://iramat-apps.cnrs.fr/api/dataset_kmittelstaedt22	N	Dataset	dataset_kmittelstaedt22	ch.bibreference = 79	j.id_dataset = 22
-https://iramat-apps.cnrs.fr/api/dataset_mbenvenuti13	N	Dataset	dataset_mbenvenuti13	ch.bibreference = 80	j.id_dataset = 23
-https://iramat-apps.cnrs.fr/api/dataset_mberranger26	N	Dataset	dataset_mberranger26	ch.bibreference = 97	j.id_dataset = 24
-https://iramat-apps.cnrs.fr/api/dataset_rsaage26	N	Dataset	dataset_rsaage26	ch.bibreference = 99	j.id_dataset = 26
+url_data	is_reference_data	description	dataset_name	bibreference_num	dataset_num	description
+https://iramat-apps.cnrs.fr/api/ref_elements	Y	Atomic number	None	None	None	Lorem Ipsum dolor sit amet, consectetur adipiscing elit.
+https://iramat-apps.cnrs.fr/api/dataset_tyoungxx	N	Dataset	dataset_tyoungxx	ch.bibreference >= 20 AND ch.bibreference <= 71	j.id_dataset = 19	Lorem Ipsum dolor sit amet, consectetur
+https://iramat-apps.cnrs.fr/api/dataset_adisser17	N	Dataset	dataset_adisser17	ch.bibreference = 1	j.id_dataset = 1	Lorem Ipsum dolor sit amet, consectetur
+https://iramat-apps.cnrs.fr/api/dataset_gzabinski23	N	Dataset	dataset_gzabinski23	ch.bibreference = 19	j.id_dataset = 18	Lorem Ipsum dolor sit amet, consectetur
+https://iramat-apps.cnrs.fr/api/dataset_gpages22	N	Dataset	dataset_gpages22	ch.bibreference = 2	j.id_dataset = 2	Lorem Ipsum dolor sit amet, consectetur
+https://iramat-apps.cnrs.fr/api/dataset_vserneels93	N	Dataset	dataset_vserneels93	ch.bibreference = 17	j.id_dataset = 16	Lorem Ipsum dolor sit amet, consectetur
+https://iramat-apps.cnrs.fr/api/dataset_sleroy12	N	Dataset	dataset_sleroy12	ch.bibreference = 4	j.id_dataset = 4	Lorem Ipsum dolor sit amet, consectetur
+https://iramat-apps.cnrs.fr/api/dataset_pdillmann17	N	Dataset	dataset_pdillmann17	ch.bibreference = 6	j.id_dataset = 5	Lorem Ipsum dolor sit amet, consectetur
+https://iramat-apps.cnrs.fr/api/dataset_amdesaulty8a	N	Dataset	dataset_amdesaulty8a	ch.bibreference = 7	j.id_dataset = 6	Lorem Ipsum dolor sit amet, consectetur
+https://iramat-apps.cnrs.fr/api/dataset_amdesaulty8b	N	Dataset	dataset_amdesaulty8b	ch.bibreference = 8	j.id_dataset = 7	Lorem Ipsum dolor sit amet, consectetur
+https://iramat-apps.cnrs.fr/api/dataset_jmilot16	N	Dataset	dataset_jmilot16	ch.bibreference = 9	j.id_dataset = 8	Lorem Ipsum dolor sit amet, consectetur
+https://iramat-apps.cnrs.fr/api/dataset_mpcoustures06	N	Dataset	dataset_mpcoustures06	ch.bibreference = 10	j.id_dataset = 9	Lorem Ipsum dolor sit amet, consectetur
+https://iramat-apps.cnrs.fr/api/dataset_gstdidier17	N	Dataset	dataset_gstdidier17	ch.bibreference = 11	j.id_dataset = 10	Lorem Ipsum dolor sit amet, consectetur
+https://iramat-apps.cnrs.fr/api/dataset_mbrauns13	N	Dataset	dataset_mbrauns13	ch.bibreference = 13	j.id_dataset = 12	Lorem Ipsum dolor sit amet, consectetur
+https://iramat-apps.cnrs.fr/api/dataset_lheritier20	N	Dataset	dataset_lheritier20	ch.bibreference = 14	j.id_dataset = 13	Lorem Ipsum dolor sit amet, consectetur
+https://iramat-apps.cnrs.fr/api/dataset_mleroy97	N	Dataset	dataset_mleroy97	ch.bibreference = 15	j.id_dataset = 14	Lorem Ipsum dolor sit amet, consectetur
+https://iramat-apps.cnrs.fr/api/dataset_mleroy24	N	Dataset	dataset_mleroy24	ch.bibreference = 16	j.id_dataset = 15	Lorem Ipsum dolor sit amet, consectetur
+https://iramat-apps.cnrs.fr/api/dataset_leschenlohr01	N	Dataset	dataset_leschenlohr01	ch.bibreference = 18	j.id_dataset = 17	Lorem Ipsum dolor sit amet, consectetur
+https://iramat-apps.cnrs.fr/api/dataset_tivancan21	N	Dataset	dataset_tivancan21	ch.bibreference = 77 	j.id_dataset = 20	Lorem Ipsum dolor sit amet, consectetur
+https://iramat-apps.cnrs.fr/api/dataset_pmameli14	N	Dataset	dataset_pmameli14	ch.bibreference = 78	j.id_dataset = 21	Lorem Ipsum dolor sit amet, consectetur
+https://iramat-apps.cnrs.fr/api/dataset_kmittelstaedt22	N	Dataset	dataset_kmittelstaedt22	ch.bibreference = 79	j.id_dataset = 22	Lorem Ipsum dolor sit amet, consectetur
+https://iramat-apps.cnrs.fr/api/dataset_mbenvenuti13	N	Dataset	dataset_mbenvenuti13	ch.bibreference = 80	j.id_dataset = 23	Lorem Ipsum dolor sit amet, consectetur
+https://iramat-apps.cnrs.fr/api/dataset_mberranger26	N	Dataset	dataset_mberranger26	ch.bibreference = 97	j.id_dataset = 24	Lorem Ipsum dolor sit amet, consectetur
+https://iramat-apps.cnrs.fr/api/dataset_rsaage26	N	Dataset	dataset_rsaage26	ch.bibreference = 99	j.id_dataset = 26	Lorem Ipsum dolor sit amet, consectetur
