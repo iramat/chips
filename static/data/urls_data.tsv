@@ -1,4 +1,4 @@
-url_data	is_reference_data	description	dataset_name	bibreference_num	dataset_num	description
+url_data	is_reference_data	description	dataset_name	bibreference_num	dataset_num	description_txt
 https://iramat-apps.cnrs.fr/api/ref_elements	Y	Atomic number	None	None	None	Lorem Ipsum dolor sit amet, consectetur adipiscing elit.
 https://iramat-apps.cnrs.fr/api/dataset_tyoungxx	N	Dataset	dataset_tyoungxx	ch.bibreference >= 20 AND ch.bibreference <= 71	j.id_dataset = 19	Lorem Ipsum dolor sit amet, consectetur
 https://iramat-apps.cnrs.fr/api/dataset_adisser17	N	Dataset	dataset_adisser17	ch.bibreference = 1	j.id_dataset = 1	Lorem Ipsum dolor sit amet, consectetur
