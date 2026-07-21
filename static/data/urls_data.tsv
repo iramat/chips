@@ -2,7 +2,7 @@ url_data	is_reference_data	description	dataset_name	bibreference_num	dataset_num
 https://iramat-apps.cnrs.fr/api/ref_elements	Y	Atomic number	None	None	None	Lorem Ipsum dolor sit amet, consectetur adipiscing elit.
 https://iramat-apps.cnrs.fr/api/dataset_tyoungxx	N	Dataset	dataset_tyoungxx	ch.bibreference >= 20 AND ch.bibreference <= 71	j.id_dataset = 19	Lorem Ipsum dolor sit amet, consectetur
 https://iramat-apps.cnrs.fr/api/dataset_adisser17	N	Dataset	dataset_adisser17	ch.bibreference = 1	j.id_dataset = 1	Lorem Ipsum dolor sit amet, consectetur
-https://iramat-apps.cnrs.fr/api/dataset_gzabinski23	N	Dataset	dataset_gzabinski23	ch.bibreference = 19	j.id_dataset = 18	Lorem Ipsum dolor sit amet, consectetur
+https://iramat-apps.cnrs.fr/api/dataset_gzabinski23	N	Dataset	dataset_gzabinski23	ch.bibreference = 19	j.id_dataset = 18	Lorem Ipsum dolor sit amet, consectetur. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 https://iramat-apps.cnrs.fr/api/dataset_gpages22	N	Dataset	dataset_gpages22	ch.bibreference = 2	j.id_dataset = 2	Lorem Ipsum dolor sit amet, consectetur
 https://iramat-apps.cnrs.fr/api/dataset_vserneels93	N	Dataset	dataset_vserneels93	ch.bibreference = 17	j.id_dataset = 16	Lorem Ipsum dolor sit amet, consectetur
 https://iramat-apps.cnrs.fr/api/dataset_sleroy12	N	Dataset	dataset_sleroy12	ch.bibreference = 4	j.id_dataset = 4	Lorem Ipsum dolor sit amet, consectetur
