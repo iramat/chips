@@ -59,6 +59,8 @@ Open datasets, accessible throught the API, are listed here:
 
 {{< tsvtable "data/urls_data.tsv" >}}
 
+Corresponding biblographic references are listed in the section: [references](#references)
+
 #### Measurement errors
 
 > Recording measurement errors
@@ -79,24 +81,11 @@ The query result shown in Figure 2 illustrates how these values are organised. U
 
 </p>
 
-Further documentation is available in the iramat-dev GitHub repository:
+### Data entry
 
-`https://github.com/iramat/iramat-dev/tree/main/dbs/chips`
+The data is extracted from a published datasets, curated and normalized with available metadata before being added to the Postgres database.
 
-
-### How-to-contribute
-
-> Contribute your data to CHIPS
-
-An easy way to register your dataset in CHIPS and expose it as a standalone dataset is to complete and send us the [**template file `chips_dataset_entry_template.xlsx`**](https://github.com/iramat/chips/tree/hugo-files/static/data/templates), available for download from the CHIPS GitHub repository. Columns and value types are described in the [**Tables and values** section](https://iramat.github.io/chips/docs/documentation/#tables-and-values) of the database documentation.
-
-Below is a preview of the template, including sample records from the `dataset_rsaage26` dataset.
-
-{{< tsvtable2 "data/chips_dataset_entry_template.tsv" >}}
-
-<br>
-
-#### Data authorship
+### Data authorship
 
 Beyond data standardisation and interoperability, the CHIPS project also aims to make datasets **citable**, meaning that your contribution can be cited independently of both the CHIPS database and other datasets.
 
@@ -114,6 +103,18 @@ Unless otherwise specified, your data will be subject to the **CC BY 4.0 license
 {{< callout context="note" title="Contact" icon="outline/info-circle" >}}
 CHIPS uses GitHub as the primary platform for discussing data and software development; feel free to [create an issue](https://github.com/iramat/chips/issues). Otherwise, for scientific questions (e.g., error calculations), please contact [alexandre.disser@cnrs.fr](mailto:alexandre.disser@cnrs.fr), and for IT-related questions (e.g., linked open data), please contact [thomas.huet@cnrs.fr](mailto:thomas.huet@cnrs.fr). See also the [Contact](https://iramat.github.io/chips/contact/) section.
 {{< /callout >}}
+
+## How-to-contribute
+
+> Contribute your data to CHIPS
+
+An easy way to register your dataset in CHIPS and expose it as a standalone dataset is to complete and send us the [**template file `chips_dataset_entry_template.xlsx`**](https://github.com/iramat/chips/tree/hugo-files/static/data/templates), available for download from the CHIPS GitHub repository. Columns and value types are described in the [**Tables and values** section](https://iramat.github.io/chips/docs/documentation/#tables-and-values) of the database documentation.
+
+Below is a preview of the template, including sample records from the `dataset_rsaage26` dataset.
+
+{{< tsvtable2 "data/chips_dataset_entry_template.tsv" >}}
+
+<br>
 
 ## How-to-cite
 
@@ -166,6 +167,10 @@ The CHIPS database is a key component of a broader workflow integrating web-orie
 
 ## References
 
-* 2026, pre-print ["_The CHIPS Database: A Repository for Reference Data on Chemical Analysis in Archaeometallurgy of Iron_"](https://zenodo.org/records/15144194) and its [PCI Archaeology recommendation](https://archaeo.peercommunityin.org/PCIArchaeology/articles/rec?id=610).
+{{< callout context="note" title="Notes" icon="outline/info-circle" >}}
+2026, pre-print ["_The CHIPS Database: A Repository for Reference Data on Chemical Analysis in Archaeometallurgy of Iron_"](https://zenodo.org/records/15144194) and its [PCI Archaeology recommendation](https://archaeo.peercommunityin.org/PCIArchaeology/articles/rec?id=610).
+{{< /callout >}}
 
+Bibliographic references used to create the datasets
 
+{{< references_bib >}}

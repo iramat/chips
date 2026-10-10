@@ -1,0 +1,12 @@
+{{- $path := "static/data/references_bib.html" -}}
+
+{{- if fileExists $path -}}
+  {{- readFile $path | safeHTML -}}
+{{- else -}}
+  <p class="alert alert-warning">
+    Bibliographic references are unavailable. Run
+    <code>py build_references_bib.py</code>
+    to generate
+    <code>{{ $path }}</code>.
+  </p>
+{{- end -}}

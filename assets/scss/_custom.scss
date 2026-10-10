@@ -32,4 +32,16 @@
   flex-shrink: 0;
 }
 
+.wide-frame {
+  width: 100vw;
+  margin-left: calc(50% - 40vw);
+}
+
+.wide-frame iframe {
+  width: 100%;
+  height: 1000px;
+  border: none;
+}
+
+
 

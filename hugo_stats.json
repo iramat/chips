@@ -28,6 +28,7 @@
       "header",
       "hr",
       "html",
+      "iframe",
       "img",
       "input",
       "kbd",
@@ -84,6 +85,9 @@
       "card-body",
       "card-list",
       "categories",
+      "chips-bibliography",
+      "chips-bibliography__entry",
+      "chips-bibliography__list",
       "chroma",
       "col-12",
       "col-lg-10",
@@ -166,6 +170,7 @@
       "list-inline",
       "list-inline-item",
       "list-view",
+      "lod",
       "mb-0",
       "mb-3",
       "mb-4",
@@ -261,6 +266,7 @@
       "toc-sticky",
       "tsvtable-wrapper",
       "visually-hidden",
+      "wide-frame",
       "wrap"
     ],
     "ids": [
@@ -273,6 +279,7 @@
       "dashboard-code-reusability",
       "data",
       "data-authorship",
+      "data-entry",
       "data-selection",
       "database",
       "dataset-selection",
@@ -316,7 +323,7 @@
       "tsvtable-2",
       "tsvtable-3",
       "tsvtable-4",
-      "tsvtable-6",
+      "tsvtable-8",
       "why-chips-db",
       "workflow"
     ]
