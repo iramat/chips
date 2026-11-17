@@ -57,7 +57,7 @@ From this point, the left sidebar offers direct access to:
 
 - **API**: interface external applications (for example, the [R *iRamat* package](https://github.com/iramat/iRamat)) without downloading the data.
 - **CSV**: download the complete dataset together with its references.
-- **Line Chart** and **Ternary Plot**: dynamically visualize the data (zooming, hovering, pop-up windows, etc.).
+- **Line Chart**, **Scatter plot**, and **Ternary Plot**: dynamically visualize the data (zooming, hovering, pop-up windows, etc.).
 
 ## Exploring compositional data
 
@@ -65,19 +65,28 @@ Compositional data can be explored through several dynamic Plotly visualizations
 
 ### Line Chart
 
-Among the different plots calculated on the fly from the API, one of these is the line chart: <https://iramat-apps.cnrs.fr/dash/dataset_gzabinski23>
+Among the different plots calculated on the fly from the API, one of these is the line chart (1D): <br> <https://iramat-apps.cnrs.fr/dash/dataset_gzabinski23>
 
 <p align="center">
-    {{< img src="images/dash-page-dataset-linechart-gzabinski23.png" alt="CHIPS dashboard landing page" width="800" >}}<br>
+    {{< img src="images/dash-page-dataset-1-linechart-gzabinski23.png" alt="CHIPS dashboard landing page" width="800" >}}<br>
   Line chart view of the `dataset_gzabinski23` dataset. By default, the chart uses a logarithmic scale.
+</p>
+
+### Scatter Plot
+
+Another possible view is the scatter plot (2D): <br><https://iramat-apps.cnrs.fr/dash/chartscatter/dataset_gzabinski23>
+
+<p align="center">
+    {{< img src="images/dash-page-dataset-2-scatter-gzabinski23.png" alt="CHIPS dashboard scatter plot" width="800" >}}<br>
+  Scatter plot view of the `dataset_gzabinski23` dataset. By default, the two selected oxides are: FeO and Al2O3.
 </p>
 
 ### Ternary Plot
 
-Another possible view is the ternary plot: <https://iramat-apps.cnrs.fr/dash/charttern/dataset_gzabinski23>
+Another possible view is the ternary plot (3D):<br> <https://iramat-apps.cnrs.fr/dash/charttern/dataset_gzabinski23>
 
 <p align="center">
-    {{< img src="images/dash-page-dataset-ternaryplot-gzabinski23.png" alt="CHIPS dashboard ternary plot" width="800" >}}<br>
+    {{< img src="images/dash-page-dataset-3-ternaryplot-gzabinski23.png" alt="CHIPS dashboard ternary plot" width="800" >}}<br>
   Ternary plot view of the `dataset_gzabinski23` dataset. By default, the three selected oxides are: FeO-SiO2-Al2O3.
 </p>
 

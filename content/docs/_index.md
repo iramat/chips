@@ -59,7 +59,7 @@ Open datasets, accessible throught the API, are listed here:
 
 {{< tsvtable "data/urls_data.tsv" >}}
 
-Corresponding biblographic references are listed in the section: [references](#references)
+This dataset list is available [here](https://github.com/iramat/chips/blob/hugo-files/static/data/urls_data.tsv). Corresponding biblographic references are listed in the section: [references](#references)
 
 #### Measurement errors
 
@@ -126,7 +126,7 @@ Below is a preview of the template, including sample records from the `dataset_r
 
 <p align="center">
     {{< img src="images/data-how-to-cite-example-api.png" alt="how-to-cite1" width="1200" >}}<br>
-    Cite a dataset exported from the API (from: http://157.136.252.188:3000/dataset_jmilot16)
+    Cite a dataset exported from the API (from: https://iramat-apps.cnrs.fr/api/dataset_jmilot16)
 </p>
 
 <br><br>
@@ -161,16 +161,22 @@ The CHIPS database is a key component of a broader workflow integrating web-orie
 
 <p align="center">
     {{< img src="images/chips_erd.png" alt="CHIPS project workflow" width="700" >}}<br>
-  CHIPS project workflow. Circled numbers (1–5) refer to the following resources: 1. API (root): <a href="http://157.136.252.188:3000/">http://157.136.252.188:3000/</a>; 2. Dashboard: <a href="https://iramat-apps.cnrs.fr/dash/">https://iramat-apps.cnrs.fr/dash/</a>; 3. <em>iRamat</em> R package: <a href="https://github.com/iramat/iRamat">https://github.com/iramat/iRamat</a>; 4. Website: <a href="https://iramat.github.io/chips">https://iramat.github.io/chips</a>; 5. GEO platform: <a href="https://fnp.huma-num.fr/adws/app/efbc5983-40d6-11ec-810c-a7f8dd92e681/">https://fnp.huma-num.fr/adws/app/efbc5983-40d6-11ec-810c-a7f8dd92e681/</a>.
+  CHIPS project workflow. Circled numbers (1–5) refer to the following resources: 1. API (root): <a href="https://iramat-apps.cnrs.fr/api/">https://iramat-apps.cnrs.fr/api/</a>; 2. Dashboard: <a href="https://iramat-apps.cnrs.fr/dash/" target="_blank">https://iramat-apps.cnrs.fr/dash/</a>; 3. <em>iRamat</em> R package: <a href="https://github.com/iramat/iRamat" target="_blank">https://github.com/iramat/iRamat</a>; 4. Website: <a href="https://iramat.github.io/chips" target="_blank">https://iramat.github.io/chips</a>; 5. GEO platform: <a href="https://fnp.huma-num.fr/adws/app/efbc5983-40d6-11ec-810c-a7f8dd92e681/" target="_blank">https://fnp.huma-num.fr/adws/app/efbc5983-40d6-11ec-810c-a7f8dd92e681/</a>.
 </p>
+
+<br>
+
+
+
+{{< callout context="note" title="Workflow" icon="outline/info-circle" >}}
+By providing archaeometric data, CHIPS also contributes to <u><a href="https://iramat.github.io/iramat-apps/docs/" target="_blank">a broader research workflow</a></u> developed within the **Iramat-apps** ecosystem, which integrates various research tools and resources, including numismatic databases.
+{{< /callout >}}
 
 
 ## References
 
-{{< callout context="note" title="Notes" icon="outline/info-circle" >}}
-2026, pre-print ["_The CHIPS Database: A Repository for Reference Data on Chemical Analysis in Archaeometallurgy of Iron_"](https://zenodo.org/records/15144194) and its [PCI Archaeology recommendation](https://archaeo.peercommunityin.org/PCIArchaeology/articles/rec?id=610).
-{{< /callout >}}
+* 2026, pre-print ["_The CHIPS Database: A Repository for Reference Data on Chemical Analysis in Archaeometallurgy of Iron_"](https://zenodo.org/records/15144194) and its [PCI Archaeology recommendation](https://archaeo.peercommunityin.org/PCIArchaeology/articles/rec?id=610).
 
-Bibliographic references used to create the datasets
+### References used to create the datasets
 
 {{< references_bib >}}
